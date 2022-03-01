@@ -1,0 +1,26 @@
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-alias: server
+    key-store: classpath:sycomafrica_com.jks
+    key-store-password: syc0m@4r1cA~
+    key-password: syc0m@4r1cA~
+
+---
+
+spring:
+  profiles: local
+server:
+  port: 8080
+  ssl:
+    enabled: false
+
+---
+
+spring:
+  profiles: local-kubernetes
+server:
+  port: 8080
+  ssl:
+    enabled: false

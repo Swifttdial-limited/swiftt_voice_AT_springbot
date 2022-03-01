@@ -1,0 +1,62 @@
+buildscript {
+	ext {
+		springBootVersion = '2.1.1.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+		classpath("se.transmode.gradle:gradle-docker:1.2")
+	}
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+apply plugin: 'docker'
+
+group = 'com.sycomafrica.syhos'
+version = '1.0.0-RELEASE'
+sourceCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+	maven { url 'https://repo.spring.io/milestone' }
+}
+
+
+ext {
+	springCloudVersion = 'Greenwich.RC2'
+}
+
+dependencies {
+	implementation('org.springframework.boot:spring-boot-starter-actuator')
+	implementation('org.springframework.boot:spring-boot-starter-security')
+	implementation('org.springframework.boot:spring-boot-starter-web')
+	implementation('org.springframework.cloud:spring-cloud-config-server')
+	implementation('org.springframework.cloud:spring-cloud-starter-config')
+	compileOnly('org.springframework.boot:spring-boot-configuration-processor')
+	testImplementation('org.springframework.boot:spring-boot-starter-test')
+	testImplementation('org.springframework.security:spring-security-test')
+}
+
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+	}
+}
+
+task docker(type: Docker, dependsOn: build){
+	push = false
+	applicationName = jar.baseName
+	tagVersion = jar.version
+	dockerfile = file('src/main/docker/local/Dockerfile')
+	doFirst{
+		copy {
+			from jar
+			into stageDir
+		}
+	}
+}

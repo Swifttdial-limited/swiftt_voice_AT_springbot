@@ -1,0 +1,78 @@
+spring:
+  data:
+    mongodb:
+      database: syhos-journaling-service
+      repositories:
+        enabled: true
+  rabbitmq:
+    listener:
+      retry:
+        enabled: true
+        max-attempts: 10
+    template:
+      retry:
+        enabled: true
+
+---
+
+spring:
+  profiles: local
+  cache:
+    guava:
+      spec: maximumSize=500,expireAfterAccess=600s
+    type: redis
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: ${KAFKA_BROKERS}
+          zkNodes: ${KAFKA_ZOOKEEPER_NODES}
+  data:
+    mongodb:
+      port: ${MONGO_DATABASE_PORT}
+      host: ${MONGO_DATABASE_HOST}
+      username: ${MONGO_DATABASE_USERNAME}
+      password: ${MONGO_DATABASE_PASSWORD}
+      authentication-database: ${MONGO_DATABASE_AUTHENTICATION_DATABASE}
+      database: journaling-service
+  redis:
+    host: ${REDIS_DATABASE_HOST}
+    port: ${REDIS_DATABASE_PORT}
+    password: ${REDIS_DATABASE_PASSWORD}
+
+---
+
+spring:
+  profiles: localdocker
+  data:
+    mongodb:
+      host: syhos-mongo
+      port: 27017
+  rabbitmq:
+    host: syhos-rabbitmq
+    port: 5672
+    username: guest
+    password: guest
+
+---
+
+spring:
+  profiles: local-kubernetes
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: ${KAFKA_BROKERS}
+          zkNodes: ${KAFKA_ZOOKEEPER_NODES}
+  data:
+    mongodb:
+      port: ${MONGO_DATABASE_PORT}
+      host: ${MONGO_DATABASE_HOST}
+      username: ${MONGO_DATABASE_USERNAME}
+      password: ${MONGO_DATABASE_PASSWORD}
+      authentication-database: ${MONGO_DATABASE_AUTHENTICATION_DATABASE}
+      database: journaling-service
+  redis:
+    host: ${REDIS_DATABASE_HOST}
+    port: ${REDIS_DATABASE_PORT}
+    password: ${REDIS_DATABASE_PASSWORD}

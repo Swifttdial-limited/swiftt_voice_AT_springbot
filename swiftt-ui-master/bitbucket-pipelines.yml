@@ -1,0 +1,37 @@
+# This is a sample build configuration for JavaScript.
+# Check our guides at https://confluence.atlassian.com/x/14UWN for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: node:8.11.3
+options:
+  size: 2x
+pipelines:
+    branches:
+      develop:
+        - step:
+            caches:
+             - node
+            script:  # Modify the commands below to build and test your repository.
+            - npm install
+            - npm run build
+            - ls dist/
+            - scp -vr dist/* kramer@syhos-dev.sycomafrica.com:/var/www/html
+      qa:
+        - step:
+            caches:
+             - node
+            script:  # Modify the commands below to build and test your repository.
+            - npm install 
+            - npm run build
+            - ls dist/
+            - scp -vr dist/* kramer@syhos-qa.sycomafrica.com:/var/www/html #send files to the servers
+      training:
+        - step:
+            caches:
+             - node
+            script:  # Modify the commands below to build and test your repository.
+            - npm install 
+            - npm run build
+            - ls dist/
+            - scp -vr dist/* kramer@training.syhos.org:/var/www/html #send files to the servers            

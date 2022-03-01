@@ -1,0 +1,21 @@
+// https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less
+module.exports = {
+  '@primary-color': '#9347a3',
+  '@font-size-base': '12px',
+  '@font-size-lg': '13px',
+  '@font-size-sm': '9px',
+  '@layout-body-background': '#ffffff',
+  '@layout-sider-background': '#ffffff',
+  '@form-item-margin-bottom': '10px',
+  '@table-padding-vertical': '10px',
+  '@table-padding-horizontal': '8px',
+  '@heading-color': 'fade(#000, 100%)',
+  '@text-color': 'fade(#000, 85%)',
+  '@text-color-secondary': 'fade(#000, 85%)',
+  '@heading-color-dark': 'fade(#fff, 100%)',
+  '@text-color-dark': 'fade(#fff, 95%)',
+  '@text-color-secondary-dark': 'fade(#fff, 75%)',
+  '@table-header-bg': '#c45eba',
+  '@table-header-color': '#fff',
+  '@table-row-hover-bg' : '#b88fbd',
+};

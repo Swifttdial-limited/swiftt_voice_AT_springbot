@@ -1,0 +1,74 @@
+﻿"GROUP":"CODE":"NAME":"DESCRIPTION":"GLOBAL":"DEFAULT"
+"LOGIN":"LOGIN_AUTHORIZED":"Allow user to log in":"Allow user to log in":TRUE:TRUE
+"MODULE":"VIEW_SYSTEM_ADMINISTRATION":"View System administration module":"View system administration on main navigation":TRUE:FALSE
+"MODULE":"VIEW_DASHBOARD":"View personalized dashboard":"View personalized dashboard and on main navigation":TRUE:TRUE
+"MODULE":"VIEW_CLIENTS":"View clients module":"View clients module on main navigation":TRUE:FALSE
+"MODULE":"VIEW_CALLS":"View calls module":"View calls module on main navigation":TRUE:FALSE
+"MODULE":"VIEW_IVRS":"View ivrs module":"View ivrs module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_SYSTEM_ADMINISTRATION_USERS":"View users submodule under System administration module":"View users submodule under System administration module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_SYSTEM_ADMINISTRATION_INTEGRATION_CHANNELS":"View integration channels submodule under System administration module":"View integration channels submodule under System administration module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_SYSTEM_ADMINISTRATION_DEFINITIONS":"View definitions submodule under System administration module":"View definitions submodule under System administration module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_SYSTEM_ADMINISTRATION_ROLES_AND_GROUPS":"View roles and groups submodule under System administration module":"View roles and groups submodule under System administration module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_SYSTEM_ADMINISTRATION_ORGANIZATION_DETAILS":"View organization details submodule under System administration module":"View organization details submodule under System administration module on main navigation":TRUE:FALSE
+"ROLES":"READ_ROLES":"View system roles":"View System roles":TRUE:FALSE
+"ROLES":"UPDATE_ROLE":"Modify system role record":"Modify system role information":TRUE:FALSE
+"ROLES":"DELETE_ROLE":"Delete system role":"Delete system role":TRUE:FALSE
+"ROLES":"UPDATE_ROLE_HIERARCHY":"Modify role hierarchy":"Modify role hierarchy":TRUE:FALSE
+"USER GROUPS":"CREATE_USER_GROUP":"Create new system user group":"Create new system user group":TRUE:FALSE
+"USER GROUPS":"READ_USER_GROUPS":"View system user groups":"View System user groups":TRUE:FALSE
+"USER GROUPS":"UPDATE_USER_GROUP":"Modify system user group record":"Modify system user group information":TRUE:FALSE
+"USER GROUPS":"DELETE_USER_GROUP":"Delete system user group":"Delete system user group":TRUE:FALSE
+"USERS":"CREATE_USER":"Create new system user":"Create new system user and assign roles":TRUE:FALSE
+"USERS":"READ_USERS":"View system users":"View System users application wide":TRUE:FALSE
+"USERS":"UPDATE_USER":"Modify system user record":"Modify system user information":TRUE:FALSE
+"USERS":"DELETE_USER":"Delete system user":"Delete system user application wide":TRUE:FALSE
+"USERS":"IMPORT_USERS":"Import new users":"Import new users":TRUE:FALSE
+"LOCATION TYPES":"CREATE_LOCATION_TYPE":"Create new location type":"Create new location type":TRUE:FALSE
+"LOCATION TYPES":"READ_LOCATION_TYPES":"View location types":"View location types":TRUE:FALSE
+"LOCATION TYPES":"UPDATE_LOCATION_TYPE":"Modify location type record":"Modify location type information":TRUE:FALSE
+"LOCATION TYPES":"DELETE_LOCATION_TYPE":"Delete location type":"Delete location type":TRUE:FALSE
+"LOCATIONS":"CREATE_LOCATION":"Create new location":"Create new location":TRUE:FALSE
+"LOCATIONS":"READ_LOCATIONS":"View locations":"View locations":TRUE:FALSE
+"LOCATIONS":"UPDATE_LOCATION":"Modify location record":"Modify location information":TRUE:FALSE
+"LOCATIONS":"DELETE_LOCATION":"Delete location":"Delete location":TRUE:FALSE
+"REGIONS":"CREATE_REGION":"Create new region":"Create new region":TRUE:FALSE
+"REGIONS":"READ_REGIONS":"View regions":"View regions":TRUE:FALSE
+"REGIONS":"UPDATE_REGION":"Modify region record":"Modify region information":TRUE:FALSE
+"REGIONS":"DELETE_REGION":"Delete region":"Delete region":TRUE:FALSE
+"DEPARTMENTS":"CREATE_DEPARTMENT":"Create new department":"Create new department":TRUE:FALSE
+"DEPARTMENTS":"READ_DEPARTMENTS":"View departments":"View departments":TRUE:FALSE
+"DEPARTMENTS":"UPDATE_DEPARTMENT":"Modify department record":"Modify department information":TRUE:FALSE
+"DEPARTMENTS":"DELETE_DEPARTMENT":"Delete department":"Delete department":TRUE:FALSE
+"IDENTIFICATION TYPES":"CREATE_IDENTIFICATION_TYPE":"Create new identification type":"Create new identification type":TRUE:FALSE
+"IDENTIFICATION TYPES":"READ_IDENTIFICATION_TYPES":"View identification types":"View identification types":TRUE:FALSE
+"IDENTIFICATION TYPES":"UPDATE_IDENTIFICATION_TYPE":"Modify identification type record":"Modify identification type information":TRUE:FALSE
+"IDENTIFICATION TYPES":"DELETE_IDENTIFICATION_TYPE":"Delete identification type":"Delete identification type":TRUE:FALSE
+"RELIGIONS":"CREATE_RELIGION":"Create new religion":"Create new religion":TRUE:FALSE
+"RELIGIONS":"READ_RELIGIONS":"View religions":"View religions":TRUE:FALSE
+"RELIGIONS":"UPDATE_RELIGION":"Modify religion record":"Modify religion information":TRUE:FALSE
+"RELIGIONS":"DELETE_RELIGION":"Delete religion":"Delete religion":TRUE:FALSE
+"TITLES":"CREATE_TITLE":"Create new title":"Create new title":TRUE:FALSE
+"TITLES":"READ_TITLES":"View titles":"View titles":TRUE:FALSE
+"TITLES":"UPDATE_TITLE":"Modify title record":"Modify title information":TRUE:FALSE
+"TITLES":"DELETE_TITLE":"Delete title":"Delete title":TRUE:FALSE
+"FOLDERS":"CREATE_FOLDER":"View folder":"View folder":TRUE:FALSE
+"FOLDERS":"READ_FOLDERS":"View folders":"View folders":TRUE:FALSE
+"FOLDERS":"UPDATE_FOLDER":"Modify folder":"Modify folder information":TRUE:FALSE
+"FOLDERS":"DELETE_FOLDER":"Delete folder":"Delete folder":TRUE:FALSE
+"INSTITUTIONS":"CREATE_INSTITUTION":"Create institution":"Create institution record":FALSE:FALSE
+"INSTITUTIONS":"READ_MY_INSTITUTION":"View my institution":"View my institution":TRUE:FALSE
+"INSTITUTIONS":"READ_INSTITUTIONS":"View institutions":"View institutions":FALSE:FALSE
+"INSTITUTIONS":"UPDATE_INSTITUTION":"Update institution":"Update institution":FALSE:FALSE
+"INSTITUTIONS":"UPDATE_MY_INSTITUTION":"Update my institution":"Update my institution":TRUE:FALSE
+"LICENCES":"CREATE_INSTITUTION_LICENCE":"Create licence for institution":"Create institution licence record":FALSE:FALSE
+"LICENCES":"READ_LICENCES":"View licences":"View licences":FALSE:FALSE
+"LICENCES":"READ_MY_LICENCE":"View my licence":"View my licence record":TRUE:FALSE
+"LICENCES":"DELETE_LICENCE":"Delete licence":"Delete licence record":FALSE:FALSE
+"CALLS":"CREATE_CALL":"Create new call":"Create new call":TRUE:FALSE
+"CALLS":"READ_CALLS":"View calls":"View calls":TRUE:FALSE
+"CALLS":"UPDATE_CALL":"Modify call record":"Modify call information":TRUE:FALSE
+"CALLS":"DELETE_CALL":"Delete call":"Delete call":TRUE:FALSE
+"CLIENTS":"CREATE_CLIENT":"Create new client":"Create new client":TRUE:FALSE
+"CLIENTS":"READ_CLIENTS":"View clients":"View clients":TRUE:FALSE
+"CLIENTS":"UPDATE_CLIENT":"Modify client record":"Modify client information":TRUE:FALSE
+"CLIENTS":"DELETE_CLIENT":"Delete client":"Delete client":TRUE:FALSE

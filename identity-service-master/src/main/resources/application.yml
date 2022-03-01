@@ -1,0 +1,55 @@
+server:
+  port: 6778
+  max-http-header-size: 150000
+  connection-timeout: 100000
+  tomcat:
+    max-http-post-size: 1000000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    preferIpAddress: true
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        agent-created:
+          content-type: application/json
+          destination: swiftt.agent.created
+          durable-subscription: true
+        institution-created:
+          content-type: application/json
+          destination: swiftt.institution.created
+          group: identity-service
+          durable-subscription: true
+        client-institution-created:
+          content-type: application/json
+          destination: swiftt.clientinstitution.created
+          group: identity-service
+          durable-subscription: true
+        system-user-ingestion-queue:
+          content-type: application/json
+          destination: swiftt.ingestion.system-users-queue
+          group: identity-service
+          durable-subscription: true
+        user-updated:
+          content-type: application/json
+          destination: swiftt.user.updated
+          durable-subscription: true
+        user-deleted:
+          content-type: application/json
+          destination: swiftt.user.deleted
+          durable-subscription: true
+  batch:
+    job:
+      enabled: false
+
+security:
+  basic:
+    enabled: false
+
+custom:
+  default-user-password: swiftt

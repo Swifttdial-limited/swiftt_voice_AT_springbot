@@ -1,0 +1,34 @@
+server:
+  port: 6779
+  max-http-header-size: 150000
+  tomcat:
+    max-http-form-post-size: 1000000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    preferIpAddress: true
+
+
+#security:
+#  basic:
+#    enabled: false
+spring:
+  cloud:
+    stream:
+      bindings:
+        agent-created:
+          content-type: application/json
+          destination: swiftt.agent.created
+          group: at-service
+          durable-subscription: true
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+        web:
+          client:
+            RestTemplate: DEBUG

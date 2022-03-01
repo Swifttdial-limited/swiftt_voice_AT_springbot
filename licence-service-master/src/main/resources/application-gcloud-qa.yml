@@ -1,0 +1,42 @@
+spring:
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://172.17.0.2:5432/syhos-licence
+    username: syhos
+    password: syhos
+  rabbitmq:
+    host: 172.17.0.3
+    port: 5672
+    username: guest
+    password: guest
+    listener:
+      simple:
+        retry:
+          enabled: true
+          max-attempts: 10
+    template:
+      retry:
+        enabled: true
+
+security:
+  oauth2:
+    resource:
+      jwt:
+        keyValue: |
+          -----BEGIN PUBLIC KEY-----
+          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqp6QsfL7dq1Z8oa1L1da
+          46pqI9cCZzlCcGGwRFibln9qMlJZAaOq4lHpw36BU/qvPAc1ecDo6ZGOWMYkDHt4
+          05pzbO7kcrW+sFtx5MVg2ozE0K5iw9E5lEGKMWiepbXRgQBHVz5tk2rA7Mfjg2co
+          K4MW1j2xa/KjlcSCwIvEa/Ycfwucq533C+kRWQs6ebb6lAXCzuL5SQ88lP66wYCl
+          bbqmaQNphJgYfIv/XxV4PlBpkmrMITSnWd0FsQrZXEnqH8tSEzFNcDp7MOqacxP3
+          l7hO8Xo6KBRmrp3da3gC42UVPeupwvBGyd1m3YzEcAHF/VfB5yuAr8W0CgEfW0LV
+          +QIDAQAB
+          -----END PUBLIC KEY-----

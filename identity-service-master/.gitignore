@@ -1,0 +1,31 @@
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+/src/main/resources/application-localconfig.yml
+out/test/
+/src/main/java/co/ke/sycomafrica/syhos/identityservice/configurations/LocalOAuth2ResourceServerConfig.java
+/out/
+/src/main/java/co/ke/sycomafrica/syhos/identityservice/utils/runners/DummyRoleHierarchyLoader.java
+/cbs.sh

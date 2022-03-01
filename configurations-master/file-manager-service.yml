@@ -1,0 +1,45 @@
+spring:
+  data:
+    mongodb:
+      repositories:
+        enabled: true
+
+---
+
+spring:
+  profiles: local
+  data:
+    mongodb:
+      port: ${MONGO_DATABASE_PORT}
+      host: ${MONGO_DATABASE_HOST}
+      username: ${MONGO_DATABASE_USERNAME}
+      password: ${MONGO_DATABASE_PASSWORD}
+      authentication-database: ${MONGO_DATABASE_AUTHENTICATION_DATABASE}
+      database: file-management-service
+
+---
+
+spring:
+  profiles: localdocker
+  data:
+    mongodb:
+      database: syhos-file-service
+      host: syhos-mongo
+      port: 27017
+  http:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+---
+
+spring:
+  profiles: local-kubernetes
+  data:
+    mongodb:
+      port: ${MONGO_DATABASE_PORT}
+      host: ${MONGO_DATABASE_HOST}
+      username: ${MONGO_DATABASE_USERNAME}
+      password: ${MONGO_DATABASE_PASSWORD}
+      authentication-database: ${MONGO_DATABASE_AUTHENTICATION_DATABASE}
+      database: file-management-service

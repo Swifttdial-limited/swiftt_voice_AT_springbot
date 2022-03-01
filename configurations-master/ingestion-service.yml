@@ -1,0 +1,29 @@
+spring:
+  profiles: local
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: ${KAFKA_BROKERS}
+          zkNodes: ${KAFKA_ZOOKEEPER_NODES}
+
+---
+
+spring:
+  profiles: localdocker
+  rabbitmq:
+      host: syhos-rabbitmq
+      port: 5672
+      username: guest
+      password: guest
+
+---
+
+spring:
+  profiles: local-kubernetes
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: ${KAFKA_BROKERS}
+          zkNodes: ${KAFKA_ZOOKEEPER_NODES}

@@ -1,0 +1,54 @@
+.table {
+  width: 100%;
+}
+.table td.avatar img {
+  border-radius: 50%;
+}
+.table :global .ant-table-tbody > tr > td,
+.table :global .ant-table-thead > tr > th {
+  height: 36px;
+}
+.table :global .ant-table-tbody > tr > td:nth-child(1),
+.table :global .ant-table-thead > tr > th:nth-child(1) {
+  width: 30%;
+}
+.table :global .ant-table-tbody > tr > td:nth-child(2),
+.table :global .ant-table-thead > tr > th:nth-child(2) {
+  width: 15%;
+}
+.table :global .ant-table-tbody > tr > td:nth-child(3),
+.table :global .ant-table-thead > tr > th:nth-child(3) {
+  width: 25%;
+}
+.table :global .ant-table-tbody > tr > td:nth-child(4),
+.table :global .ant-table-thead > tr > th:nth-child(4) {
+  width: 20%;
+}
+.table :global .ant-table-tbody > tr > td:nth-child(5),
+.table :global .ant-table-thead > tr > th:nth-child(5) {
+  width: 10%;
+}
+.table :global .ant-table-thead > tr {
+  transition: none;
+  display: block;
+}
+.table :global .ant-table-thead > tr > th {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.table :global .ant-table-tbody > tr {
+  transition: none;
+  display: block;
+  border-bottom: 1px solid #f5f5f5;
+}
+.table :global .ant-table-tbody > tr > td {
+  border-bottom: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.table :global .ant-table-tbody > tr.ant-table-expanded-row-level-1 > td {
+  height: auto;
+}
+/*# sourceMappingURL=list.css.map */

@@ -1,0 +1,59 @@
+spring:
+  rabbitmq:
+    listener:
+      simple:
+        retry:
+          enabled: true
+          max-attempts: 10
+    template:
+      retry:
+        enabled: true
+
+---
+
+spring:
+  profiles: local
+  cache:
+    guava:
+      spec: maximumSize=500,expireAfterAccess=600s
+    type: redis
+  data:
+    elasticsearch:
+      cluster-nodes: ${ELASTICSEARCH_NODES}:${ELASTICSEARCH_PORT:9300}
+  redis:
+    host: ${REDIS_DATABASE_HOST}
+    port: ${REDIS_DATABASE_PORT}
+    password: ${REDIS_DATABASE_PASSWORD}
+
+---
+
+spring:
+  profiles: localdocker
+  cache:
+    guava:
+      spec: maximumSize=500,expireAfterAccess=600s
+    type: guava
+  data:
+    elasticsearch:
+      cluster-nodes: syhos-elasticsearch.2.4.1:9300
+  rabbitmq:
+    host: syhos-rabbitmq
+    port: 5672
+    username: guest
+    password: guest
+
+---
+
+spring:
+  profiles: local-kubernetes
+  cache:
+    redis:
+      spec: maximumSize=500,expireAfterAccess=600s
+    type: redis
+  data:
+    elasticsearch:
+      cluster-nodes: ${ELASTICSEARCH_NODES}:${ELASTICSEARCH_PORT:9300}
+  redis:
+    host: ${REDIS_DATABASE_HOST}
+    port: ${REDIS_DATABASE_PORT}
+    password: ${REDIS_DATABASE_PASSWORD}

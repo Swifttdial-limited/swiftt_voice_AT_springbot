@@ -1,0 +1,75 @@
+plugins {
+    id 'org.springframework.boot' version '1.5.18.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+    id 'java'
+}
+
+group = 'com.swifttdial'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url  "http://dl.bintray.com/africastalking/java"
+    }
+}
+
+ext {
+//    set('springCloudVersion', "Hoxton.SR8")
+    set('springCloudVersion', "Edgware.SR5")
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-security'
+    compile 'org.springframework.boot:spring-boot-starter-validation'
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.springframework.boot:spring-boot-starter-cache'
+    compile'org.springframework.boot:spring-boot-starter-data-jpa'
+    compile 'org.springframework.cloud:spring-cloud-starter-config'
+    compile 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+    compile 'org.springframework.cloud:spring-cloud-starter-netflix-hystrix'
+    compile 'org.springframework.cloud:spring-cloud-starter-oauth2'
+    compile 'org.springframework.cloud:spring-cloud-starter-openfeign'
+    compile 'org.springframework.cloud:spring-cloud-starter-security'
+//    implementation 'org.springframework.cloud:spring-cloud-sleuth-stream'
+    compile 'org.springframework.cloud:spring-cloud-starter-sleuth'
+    compile 'org.springframework.cloud:spring-cloud-stream'
+//    implementation 'org.springframework.cloud:spring-cloud-stream-binder-kafka'
+//    implementation 'org.springframework.kafka:spring-kafka'
+    compile 'org.springframework.cloud:spring-cloud-starter-stream-rabbit'
+
+    runtime 'org.postgresql:postgresql'
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+    compileOnly('org.projectlombok:lombok:1.18.12')
+    annotationProcessor 'org.projectlombok:lombok:1.18.12'
+
+    // https://mvnrepository.com/artifact/org.jetbrains/annotations
+    compile group: 'org.jetbrains', name: 'annotations', version: '20.1.0'
+
+    // https://mvnrepository.com/artifact/com.googlecode.libphonenumber/libphonenumber
+    compile group: 'com.googlecode.libphonenumber', name: 'libphonenumber', version: '8.12.18'
+
+    compile 'com.africastalking:core:3.4.4'
+
+    testCompile('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
+    testCompile 'org.springframework.security:spring-security-test'
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
+}
+
+test {
+    useJUnitPlatform()
+}

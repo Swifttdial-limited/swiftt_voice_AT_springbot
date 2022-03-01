@@ -1,0 +1,225 @@
+@import "~antd/lib/style/themes/default.less";
+
+.headerList {
+  margin-bottom: 4px;
+}
+
+.tabsCard {
+  margin-bottom: 24px;
+  :global {
+    .ant-card-head {
+      padding: 0 16px;
+    }
+  }
+}
+
+.noData {
+  color: @disabled-color;
+  text-align: center;
+  line-height: 64px;
+  font-size: 16px;
+  i {
+    font-size: 24px;
+    margin-right: 16px;
+    position: relative;
+    top: 3px;
+  }
+}
+
+.heading {
+  color: @heading-color;
+  font-size: 20px;
+}
+
+.stepDescription {
+  font-size: 14px;
+  position: relative;
+  left: 38px;
+  & > div {
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+}
+
+.textSecondary {
+  color: @text-color-secondary;
+}
+
+@media screen and (max-width: @screen-sm) {
+  .stepDescription {
+    left: 8px;
+  }
+}
+﻿
+.profileUserpic {
+  img {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+    display: block;
+  }
+}
+
+strong {
+  color: #00b9a4;
+}
+
+.profileSidebar {
+  float: left;
+  width: 100%;
+  margin-right: 20px;
+
+}
+
+.profileContent {
+  overflow: hidden
+}
+
+.profileSidebarPortlet {
+  padding: 30px 0 0 !important
+}
+
+.profileUsertitle {
+  text-align: center;
+  margin-top: 20px
+}
+
+.profileUsertitleName {
+  color: #333;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 7px
+}
+
+.labelText {
+  color: #00b9a4;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 7px
+}
+
+.usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 13px;
+  font-weight: 800;
+  margin-bottom: 7px
+}
+
+.userbuttonsWrapper {
+  text-align: center;
+  margin-top: 10px;
+
+  button{
+    margin-right: 5px
+  }
+
+  button:last-child  a:last-child {
+    margin-right: 0
+  }
+
+   button {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 15px
+  }
+}
+
+.usermenu {
+  margin-top: 30px;
+  padding-bottom: 20px
+}
+
+.usermenu ul li {
+  border-bottom: 1px solid #f0f4f7
+}
+
+.usermenu ul li:last-child {
+  border-bottom: none
+}
+
+.usermenu ul li a {
+  color: #93a3b5;
+  font-size: 16px;
+  font-weight: 400
+}
+
+.usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 16px
+}
+
+.usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1
+}
+
+.usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px
+}
+
+.stat {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0f4f7
+}
+
+.stat-title {
+  color: #7f90a4;
+  font-size: 25px;
+  text-align: center
+}
+
+.stat-text {
+  color: #5b9bd1;
+  font-size: 11px;
+  font-weight: 800;
+  text-align: center
+}
+
+.desc-title {
+  color: #7f90a4;
+  font-size: 17px;
+  font-weight: 600
+}
+
+.desc-text {
+  color: #7e8c9e;
+  font-size: 14px
+}
+
+.desc-link i {
+  width: 22px;
+  font-size: 19px;
+  color: #abb6c4;
+  margin-right: 5px
+}
+
+.desc-link a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #5b9bd1
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    float: none;
+    width: 100% !important;
+    margin: 0
+  }
+
+  .sidebar > .portlet {
+    margin-bottom: 20px
+  }
+
+  .content {
+    overflow: visible
+  }
+}

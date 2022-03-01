@@ -1,0 +1,34 @@
+# at-credentials:
+#   username: sandbox
+#   apikey: fa2db6134016245b8a7d5f57e48d8c0079e1a8149b03b71355d8ea8883270ecf
+
+---
+
+spring:
+  profiles: gcloud-dev
+atcredentials:
+  usernames:
+    - swifttdial
+    - getso
+  apikeys:
+    swifttdial: 042268cd81757dc24fe8f3f04248d266f5c43756ab88e8c1557e8c1a89439eed
+    getso: 8426152cf9ff2f07ace9b6b0c48fe8263cf4c50035c23b9bab5ce7cdc3974df1
+
+---
+
+spring:
+  profiles: live
+atcredentials:
+  usernames:
+    - swifttdial
+    - getso
+  apikeys:
+    swifttdial: 042268cd81757dc24fe8f3f04248d266f5c43756ab88e8c1557e8c1a89439eed
+    getso: 8426152cf9ff2f07ace9b6b0c48fe8263cf4c50035c23b9bab5ce7cdc3974df1
+
+#   username: swifttdial
+#   apikey: 042268cd81757dc24fe8f3f04248d266f5c43756ab88e8c1557e8c1a89439eed 
+
+# getso-credentials:
+#    username: getso
+#    apikey: 8426152cf9ff2f07ace9b6b0c48fe8263cf4c50035c23b9bab5ce7cdc3974df1

@@ -1,0 +1,11 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ["build",
+          "-t", "gcr.io/syhos-v7/$REPO_NAME:$COMMIT_SHA",
+          "-t", "gcr.io/syhos-v7/$REPO_NAME:latest",
+          "-f", "src/main/docker/Dockerfile", "."]
+  id: 'docker-build'
+images: [
+  "gcr.io/syhos-v7/$REPO_NAME:$COMMIT_SHA",
+  "gcr.io/syhos-v7/$REPO_NAME:latest"
+]

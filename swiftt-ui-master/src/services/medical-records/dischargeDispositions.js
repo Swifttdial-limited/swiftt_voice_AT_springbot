@@ -1,0 +1,36 @@
+import pathToRegexp from 'path-to-regexp';
+
+import config from '../../utils/config';
+import request from '../../utils/request';
+
+const { api } = config;
+const { medicalRecords } = api;
+const { dischargeDisposition, dischargeDispositions } = medicalRecords;
+
+export async function query(params) {
+  return request(dischargeDispositions, {
+    method: 'GET',
+    body: params,
+  });
+}
+
+export async function create(params) {
+  return request(dischargeDispositions, {
+    method: 'POST',
+    body: params,
+  });
+}
+
+export async function remove(params) {
+  return request(pathToRegexp.compile(dischargeDisposition)(params), {
+    method: 'DELETE',
+    body: params,
+  });
+}
+
+export async function update(params) {
+  return request(pathToRegexp.compile(dischargeDisposition)(params), {
+    method: 'PATCH',
+    body: params,
+  });
+}

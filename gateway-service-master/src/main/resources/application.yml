@@ -1,0 +1,119 @@
+server:
+  port: 8081
+  max-http-header-size: 250000
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 122000
+zuul:
+  prefix: /api/v1 #Prefix added to every request. This is for api versioning.
+  ignored-services: '*' #Disable accessing the services using the service name. Only use the path defined below.
+  routes:
+    actors:
+      sensitiveHeaders:
+      path: /actors/**
+      strip-prefix: false
+      serviceId: IDENTITY-SERVICE
+    agents:
+      sensitiveHeaders:
+      path: /agents/**
+      strip-prefix: false
+      serviceId: AT-SERVICE
+    calls:
+      sensitiveHeaders:
+      path: /calls/**
+      strip-prefix: false
+      serviceId: AT-SERVICE
+    countries:
+      sensitiveHeaders:
+      path: /countries/**
+      strip-prefix: false
+      serviceId: IDENTITY-SERVICE
+    departments:
+      sensitiveHeaders:
+      path: /departments/**
+      strip-prefix: false
+      serviceId: IDENTITY-SERVICE
+    folders:
+      sensitiveHeaders:
+      path: /folders/**
+      strip-prefix: false
+      serviceId: FILE-MANAGEMENT-SERVICE
+    identificationtypes:
+      sensitiveHeaders:
+      path: /identificationTypes/**
+      strip-prefix: false
+      serviceId: IDENTITY-SERVICE
+    institutions:
+      sensitiveHeaders:
+      path: /institutions/**
+      strip-prefix: false
+      serviceId: LICENCE-SERVICE
+    ivr:
+      sensitiveHeaders:
+      path: /ivr/**
+      strip-prefix: false
+      serviceId: AT-SERVICE
+    ivrOptions:
+      sensitiveHeaders:
+      path: /ivrOptions/**
+      strip-prefix: false
+      serviceId: AT-SERVICE
+    organogramNodes:
+      sensitiveHeaders:
+      path: /organogramNodes/**
+      strip-prefix: false
+      serviceId: IDENTITY-SERVICE
+    privileges:
+      sensitiveHeaders:
+      path: /privileges/**
+      strip-prefix: false
+      serviceId: IDENTITY-SERVICE
+    profile:
+      sensitiveHeaders:
+      path: /profile/**
+      strip-prefix: false
+      serviceId: IDENTITY-SERVICE
+    regions:
+      sensitiveHeaders:
+      path: /regions/**
+      strip-prefix: false
+      serviceId: IDENTITY-SERVICE
+    religions:
+      path: /religions/**
+      strip-prefix: false
+      serviceId: IDENTITY-SERVICE
+    roles:
+      sensitiveHeaders:
+      path: /roles/**
+      strip-prefix: false
+      serviceId: IDENTITY-SERVICE
+    titles:
+      sensitiveHeaders:
+      path: /titles/**
+      strip-prefix: false
+      serviceId: IDENTITY-SERVICE
+    users:
+      sensitiveHeaders:
+      path: /users/**
+      strip-prefix: false
+      serviceId: IDENTITY-SERVICE
+    user-authentication-authorization:
+      sensitiveHeaders:
+      path: /uaa/**
+      strip-prefix: false
+      serviceId: AUTHORIZATION-SERVICE
+
+debug: true
+
+logging:
+  level.org.springframework.security: DEBUG
+
+ribbon:
+  eager-load:
+    enabled: true
+  ReadTimeout: 60000

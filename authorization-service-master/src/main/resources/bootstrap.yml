@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: authorization-service
+  cloud:
+    config:
+      uri: http://localhost:8888
+      username: syhos-app
+      fail-fast: true

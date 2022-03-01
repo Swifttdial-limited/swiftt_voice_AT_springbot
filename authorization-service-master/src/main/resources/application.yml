@@ -1,0 +1,26 @@
+server:
+  port: 1599
+  context-path: /uaa
+  max-http-header-size: 150000
+  connection-timeout: 100000
+
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: false
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
+spring:
+  profiles:
+    active: gcloud-dev
+
+security:
+  basic:
+    enabled: false
+
+oauth:
+  paths:
+    token: /oauth/authorization

@@ -1,0 +1,92 @@
+spring:
+  jpa:
+    database: postgresql
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    platform: postgres
+  rabbitmq:
+    listener:
+      simple:
+        retry:
+          enabled: true
+          max-attempts: 10
+    template:
+      retry:
+        enabled: true
+
+---
+
+spring:
+  profiles: local
+  cache:
+    guava:
+      spec: maximumSize=500,expireAfterAccess=600s
+    type: redis
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: ${KAFKA_BROKERS}
+          zkNodes: ${KAFKA_ZOOKEEPER_NODES}
+  datasource:
+    url: jdbc:postgresql://${POSTGRES_DATABASE_HOST}:${POSTGRES_DATABASE_PORT:5432}/financial-service
+    username: ${POSTGRES_DATABASE_USERNAME}
+    password: ${POSTGRES_DATABASE_PASSWORD}
+  jpa:
+    database: postgresql
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  redis:
+    host: ${REDIS_DATABASE_HOST}
+    port: ${REDIS_DATABASE_PORT}
+    password: ${REDIS_DATABASE_PASSWORD}
+
+---
+
+spring:
+  profiles: localdocker
+  datasource:
+    url: jdbc:postgresql://syhos-postgres:5432/syhos-finance
+    username: syhos
+    password: syhos
+  rabbitmq:
+    host: syhos-rabbitmq
+    port: 5672
+    username: guest
+    password: guest
+
+---
+
+spring:
+  profiles: local-kubernetes
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: ${KAFKA_BROKERS}
+          zkNodes: ${KAFKA_ZOOKEEPER_NODES}
+  datasource:
+    url: jdbc:postgresql://${POSTGRES_DATABASE_HOST}:${POSTGRES_DATABASE_PORT:5432}/financial-service
+    username: ${POSTGRES_DATABASE_USERNAME}
+    password: ${POSTGRES_DATABASE_PASSWORD}
+  jpa:
+    database: postgresql
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  redis:
+    host: ${REDIS_DATABASE_HOST}
+    port: ${REDIS_DATABASE_PORT}
+    password: ${REDIS_DATABASE_PASSWORD}

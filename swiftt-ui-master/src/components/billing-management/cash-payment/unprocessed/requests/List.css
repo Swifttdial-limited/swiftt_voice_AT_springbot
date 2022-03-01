@@ -1,0 +1,10 @@
+.table {
+  width: 100%;
+}
+:global .ant-table-footer {
+  padding: 0%;
+}
+:global .ant-table-footer .ant-table-row > td {
+  padding: '12px 8px';
+}
+/*# sourceMappingURL=List.css.map */

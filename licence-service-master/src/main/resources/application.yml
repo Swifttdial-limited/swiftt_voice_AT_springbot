@@ -1,0 +1,28 @@
+server:
+  port: 1299
+  max-http-header-size: 150000
+  connection-timeout: 100000
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    preferIpAddress: true
+
+security:
+  basic:
+    enabled: false
+
+spring:
+  cloud:
+    stream:
+      bindings:
+        institution-created:
+          content-type: application/json
+          destination: swiftt.institution.created
+          durable-subscription: true
+        client-institution-created:
+          content-type: application/json
+          destination: swiftt.clientinstitution.created
+          durable-subscription: true

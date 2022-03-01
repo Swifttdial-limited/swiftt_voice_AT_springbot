@@ -1,0 +1,28 @@
+@import "~antd/lib/style/themes/default.less";
+
+:global {
+    .encounters {
+        height: 100%;
+        overflow: auto;
+        
+        .ant-list-item-meta {
+            min-width: 65%;
+        }
+        .ant-list-bordered.ant-list-sm .ant-list-item {
+            padding: 2px 0 0 4px;
+
+            &.selected {
+                border-left: solid @primary-color 4px;
+                margin-left: 0px !important;
+                margin-right: 0px !important;
+                background: @item-active-bg;
+                border-bottom: none;
+                border-top: none;
+                padding: 2px 0 0 4px;
+            }
+        }
+        .ant-list-item-meta-avatar {
+            margin-right: 5px;
+        }
+    }
+}

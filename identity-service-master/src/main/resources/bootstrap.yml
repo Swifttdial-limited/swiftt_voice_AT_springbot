@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: identity-service
+  cloud:
+    config:
+      uri: http://127.0.0.1:8888
+      username: syhos-app
+      password: )2P?dE=rB<y;S6Sv
+      fail-fast: true

@@ -1,0 +1,21 @@
+@import "~antd/lib/style/themes/default.less";
+.dateFilterWrapper {
+    display: block;
+    float: left;
+    max-width: 87%;
+    
+    .dateFilter {
+      display: inline-block;
+      margin-right: 24px;
+      a {
+        color: @text-color;
+        margin-left: 24px;
+        &:hover {
+          color: @primary-color;
+        }
+        &.currentDate {
+          color: @primary-color;
+        }
+      }
+    }
+  }

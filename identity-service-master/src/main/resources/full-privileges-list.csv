@@ -1,0 +1,559 @@
+"GROUP":"CODE":"NAME":"DESCRIPTION":"GLOBAL":"DEFAULT"
+"LOGIN":"LOGIN_AUTHORIZED":"Allow user to log in":"Allow user to log in":TRUE:TRUE
+"MODULE":"VIEW_SYSTEM_ADMINISTRATION":"View System administration module":"View system administration on main navigation":TRUE:FALSE
+"MODULE":"VIEW_CATALOGUE":"View Catalogue module":"View catalogue module on main navigation":TRUE:FALSE
+"MODULE":"VIEW_INVENTORY":"View inventory module":"View inventory module on main navigation":TRUE:FALSE
+"MODULE":"VIEW_PROCUREMENT":"View procurement module":"View procurement module on main navigation":TRUE:FALSE
+"MODULE":"VIEW_ACCOUNTING":"View accounting module":"View accounting module on main navigation":TRUE:FALSE
+"MODULE":"VIEW_MEDICAL_RECORDS":"View medical records module":"View medical records module on main navigation":TRUE:FALSE
+"MODULE":"VIEW_BILLING":"View billing module":"View billing module on main navigation":TRUE:FALSE
+"MODULE":"VIEW_PATIENTS":"View patient management module":"View patients module on main navigation":TRUE:FALSE
+"MODULE":"VIEW_VISITS":"View patient visits module":"View visits module on main navigation":TRUE:FALSE
+"MODULE":"VIEW_REPORTS":"View reports module":"View reports module on main navigation":TRUE:FALSE
+"MODULE":"VIEW_DASHBOARD":"View personalized dashboard":"View personalized dashboard and on main navigation":TRUE:TRUE
+"MODULE":"VIEW_DEPARTMENT_WORKSPACE":"View departmental workspace":"View department module on main navigation":TRUE:FALSE
+"MODULE":"VIEW_ADMISSIONS":"View admission module":"View admissions module on main navigation":TRUE:FALSE
+"MODULE":"VIEW_APPOINTMENTS":"View appointments module":"View appointments module on main navigation":TRUE:FALSE
+"MODULE":"VIEW_OPERATIONAL_THEATRE":"View operational theatre module":"View operational theatre module on main navigation":TRUE:FALSE
+"MODULE":"VIEW_KNOWLEDGE_BASE":"View knowledge base module":"View knowledge base module on main navigation":TRUE:FALSE
+"MODULE":"VIEW_CALLS":"View calls module":"View calls module on main navigation":TRUE:FALSE
+"MODULE":"VIEW_IVRS":"View ivrs module":"View ivrs module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_OPERATIONAL_THEATRE_SCHEDULER":"View scheduler under Operational theatre module":"View scheduler under operational theatre module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_SYSTEM_ADMINISTRATION_DEPARTMENTS":"View departments submodule under System administration module":"View departments submodule under System administration module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_SYSTEM_ADMINISTRATION_LOCATIONS":"View locations submodule under System administration module":"View locations submodule under System administration module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_SYSTEM_ADMINISTRATION_USERS":"View users submodule under System administration module":"View users submodule under System administration module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_SYSTEM_ADMINISTRATION_INTEGRATION_CHANNELS":"View integration channels submodule under System administration module":"View integration channels submodule under System administration module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_SYSTEM_ADMINISTRATION_DEFINITIONS":"View definitions submodule under System administration module":"View definitions submodule under System administration module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_SYSTEM_ADMINISTRATION_ROLES_AND_GROUPS":"View roles and groups submodule under System administration module":"View roles and groups submodule under System administration module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_SYSTEM_ADMINISTRATION_ORGANIZATION_DETAILS":"View organization details submodule under System administration module":"View organization details submodule under System administration module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_PROCUREMENT_SETUP":"View setup submodule under Procurement module":"View setup submodule under Procurement module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_PROCUREMENT_REQUISITIONS":"View requisitions submodule under Procurement module":"View requisitions submodule under Procurement module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_PROCUREMENT_PURCHASE_ORDERS":"View purchase orders submodule under Procurement module":"View purchase orders submodule under Procurement module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_PROCUREMENT_RECEIPT_NOTES":"View receipt notes submodule under Procurement module":"View receipt notes submodule under Procurement module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_INVENTORY_SETUP":"View setup submodule under Inventory module":"View setup submodule under Inventory module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_INVENTORY_INVENTORY_TRANSFERS":"View inventory transfers submodule under Inventory module":"View inventory transfers submodule under Inventory module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_INVENTORY_INVENTORY_ADJUSTMENTS":"View inventory adjustments submodule":"View inventory adjustments submodule on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_INVENTORY_STOCKTAKE":"View stocktake submodule":"View stocktake submodule on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_INVENTORY_GOODS_RETURNS":"View goods returns submodule under Inventory module":"View goods returns submodule under Inventory module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_CATALOGUE_SETUP":"View setup submodule under Catalogue module":"View setup submodule under Catalogue module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_CATALOGUE_PRODUCTS":"View products submodule under Catalogue module":"View products submodule under Catalogue module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_CATALOGUE_PRICE_LISTS":"View price lists submodule under Catalogue module":"View price lists submodule under Catalogue module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ACCOUNTING_SETUP":"View setup submodule under Accounting module":"View setup submodule under Accounting module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ACCOUNTING_CONTACTS":"View contacts submodule under Accounting module":"View contacts submodule under Accounting module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ACCOUNTING_CUSTOMERS":"View customers submodule under Accounting module":"View customers submodule under Accounting module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ACCOUNTING_CUSTOMER_REFUNDS":"View customer refunds submodule under Accounting module":"View customer refunds submodule under Accounting module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ACCOUNTING_VENDORS":"View vendors submodule under Accounting module":"View vendors submodule under Accounting module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ACCOUNTING_SCHEMES":"View customer schemes /employers submodule under Accounting module":"View customer schemes /employers submodule under Accounting module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ACCOUNTING_MANUAL_JOURNALS":"View manual journals submodule under Accounting module":"View manual journals submodule under Accounting module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ACCOUNTING_BANKING":"View banking submodule under Accounting module":"View banking submodule under Accounting module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ACCOUNTING_PETTY_CASH":"View petty cash submodule under Accounting module":"View petty cas submodule under Accounting module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ACCOUNTING_CUSTOMER_PAYMENTS":"View customer payments submodule under Accounting module":"View customer payments submodule under Accounting module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ACCOUNTING_VENDOR_BILLS":"View vendor bills submodule under Accounting module":"View vendor bills submodule under Accounting module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ACCOUNTING_VENDOR_PAYMENTS":"View vendor payments submodule under Accounting module":"View vendor payments submodule under Accounting module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ACCOUNTING_CREDIT_NOTES":"View credit notes issued to customers submodule under Accounting module":"View credit notes submodule under Accounting module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ACCOUNTING_DEBIT_NOTES":"View debit notes issued to vendors submodule under Accounting module":"View debit notes submodule under Accounting module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ACCOUNTING_BANK_RECONCILIATIONS":"View bank reconciliations submodule under Accounting module":"View bank reconciliaitions under Accounting module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_MEDICAL_RECORDS_SETUP":"View setup submodule under Medical Records module":"View setup submodule under Medical Records module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_MEDICAL_RECORDS_TEMPLATES":"View templates submodule under Medical Records module":"View templates submodule under Medical Records module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_BILLING_SETUP":"View setup submodule under Billing module":"View setup submodule under Billing module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_BILLING_CASH":"View cash billing submodule under Billing module":"View cash billing submodule under Billing module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_BILLING_CREDIT":"View credit billing submodule under Billing module":"View credit billing submodule under Billing module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_PATIENT_DEPOSITS":"View patient deposits submodule under Billing module":"View patient deposits submodule under Billing module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ADMISSIONS_SETUP":"View setup submodule under Admissions module":"View setup submodule under Admissions module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ADMISSIONS_WAITING_LIST":"View waiting list/queue under Admissions module":"View waiting list/queue under Admissions module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ADMISSIONS_OCCUPATIONS":"View occupations submodule under Admissions module":"View occupations submodule under Admissions module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ADMISSIONS_BEDS":"View beds submodule under Admissions module":"View beds submodule under Admissions module on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_DEPARTMENT_WORKSPACE_TASKS":"View departmental tasks under Department workspace":"View departmental tasks under Department workspace on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_DEPARTMENT_WORKSPACE_ITEMS":"View departmental items under Department workspace":"View departmental items under Department workspace on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_DEPARTMENT_WORKSPACE_REQUISITIONS":"View departmental requisitions under Department workspace":"View departmental requisitions under Department workspace on main navigation":TRUE:FALSE
+"SUB MODULE":"VIEW_ACCOUNTS_REPORTS":"View account and finance reports under Reports module":"View account and finance reports under Reports module":TRUE:FALSE
+"SUB MODULE":"VIEW_MEDICAL_RECORDS_REPORTS":"View medical records reports under Reports module":"View medical records reports under Reports module":TRUE:FALSE
+"SUB MODULE":"VIEW_INVENTORY_REPORTS":"View inventory reports under Reports module":"View inventory reports under Reports module":TRUE:FALSE
+"SUB MODULE":"VIEW_CATALOGUE_REPORTS":"View catalogue reports under Reports module":"View catalogue reports under Reports module":TRUE:FALSE
+"SUB MODULE":"VIEW_OTHER_REPORTS":"View other reports under Reports module":"View other reports under Reports module":TRUE:FALSE
+"SUB MODULE":"VIEW_KNOWLEDGE_BASE_DIAGNOSES":"View diagnoses under knowledge base module":"View diagnoses under knowledge base module":TRUE:FALSE
+"SUB MODULE":"VIEW_KNOWLEDGE_BASE_FILES":"View files under knowledge base module":"View files under knowledge base module":TRUE:FALSE
+"PRIVILEGES":"READ_PRIVILEGES":"View system privileges":"View System privileges":TRUE:FALSE
+"ROLES":"CREATE_ROLE":"Create new system role":"Create new system role and assign to user":TRUE:FALSE
+"ROLES":"READ_ROLES":"View system roles":"View System roles":TRUE:FALSE
+"ROLES":"UPDATE_ROLE":"Modify system role record":"Modify system role information":TRUE:FALSE
+"ROLES":"DELETE_ROLE":"Delete system role":"Delete system role":TRUE:FALSE
+"ROLES":"UPDATE_ROLE_HIERARCHY":"Modify role hierarchy":"Modify role hierarchy":TRUE:FALSE
+"USER GROUPS":"CREATE_USER_GROUP":"Create new system user group":"Create new system user group":TRUE:FALSE
+"USER GROUPS":"READ_USER_GROUPS":"View system user groups":"View System user groups":TRUE:FALSE
+"USER GROUPS":"UPDATE_USER_GROUP":"Modify system user group record":"Modify system user group information":TRUE:FALSE
+"USER GROUPS":"DELETE_USER_GROUP":"Delete system user group":"Delete system user group":TRUE:FALSE
+"USERS":"CREATE_USER":"Create new system user":"Create new system user and assign roles":TRUE:FALSE
+"USERS":"READ_USERS":"View system users":"View System users application wide":TRUE:FALSE
+"USERS":"UPDATE_USER":"Modify system user record":"Modify system user information":TRUE:FALSE
+"USERS":"DELETE_USER":"Delete system user":"Delete system user application wide":TRUE:FALSE
+"USERS":"IMPORT_USERS":"Import new users":"Import new users":TRUE:FALSE
+"LOCATION TYPES":"CREATE_LOCATION_TYPE":"Create new location type":"Create new location type":TRUE:FALSE
+"LOCATION TYPES":"READ_LOCATION_TYPES":"View location types":"View location types":TRUE:FALSE
+"LOCATION TYPES":"UPDATE_LOCATION_TYPE":"Modify location type record":"Modify locatiton type information":TRUE:FALSE
+"LOCATION TYPES":"DELETE_LOCATION_TYPE":"Delete location type":"Delete location type":TRUE:FALSE
+"LOCATIONS":"CREATE_LOCATION":"Create new location":"Create new location":TRUE:FALSE
+"LOCATIONS":"READ_LOCATIONS":"View locations":"View locations":TRUE:FALSE
+"LOCATIONS":"UPDATE_LOCATION":"Modify location record":"Modify locatiton information":TRUE:FALSE
+"LOCATIONS":"DELETE_LOCATION":"Delete location":"Delete location":TRUE:FALSE
+"REGIONS":"CREATE_REGION":"Create new region":"Create new region":TRUE:FALSE
+"REGIONS":"READ_REGIONS":"View regions":"View regions":TRUE:FALSE
+"REGIONS":"UPDATE_REGION":"Modify region record":"Modify region information":TRUE:FALSE
+"REGIONS":"DELETE_REGION":"Delete region":"Delete region":TRUE:FALSE
+"BIN LOCATIONS":"CREATE_BIN_LOCATION":"Create new bin location":"Create new bin location":TRUE:FALSE
+"BIN LOCATIONS":"READ_BIN_LOCATIONS":"View bin locations":"View bin locations":TRUE:FALSE
+"BIN LOCATIONS":"UPDATE_BIN_LOCATION":"Modify bin location record":"Modify bin locatiton information":TRUE:FALSE
+"BIN LOCATIONS":"DELETE_BIN_LOCATION":"Delete bin location":"Delete bin location":TRUE:FALSE
+"VISITS":"CREATE_VISIT":"Create new visit / book patient":"Create new patient visit / booking":TRUE:FALSE
+"VISITS":"CREATE_VISIT_HANDOVER":"Create new visit handover / referral":"Create new visit handover / referral":TRUE:FALSE
+"VISITS":"READ_VISITS":"View all visits":"View all visits":TRUE:FALSE
+"VISITS":"UPDATE_VISIT":"Modify a patient visit record":"Modify a patient visit record":TRUE:FALSE
+"VISITS":"UPDATE_VISITS_VISIT_TYPE":"Modify a patient visit's visit type record":"Modify a patient visit's visit type record":TRUE:FALSE
+"VISITS":"UPDATE_VISIT_TRIAGE_CATEGORY":"Set and modify triage category on a visit":"Set and modify triage category on a visit":TRUE:FALSE
+"VISITS":"DELETE_VISIT":"Delete a patient visit":"Delete a patient visit":TRUE:FALSE
+"VISITS":"READ_VISIT_BILLS":"View visit bills":"View visit bills":TRUE:FALSE
+"VISITS":"INITIATE_VISIT_DISCHARGE":"Initiate visit discharge":"Initiate visit discharge":TRUE:FALSE
+"VISITS":"CREATE_VISIT_DISCHARGE_SUMMARY":"Create new visit discharge summary":"Create new visit discharge summary":TRUE:FALSE
+"VISITS":"READ_VISIT_DISCHARGE_SUMMARY":"View visit discharge summary":"View visit discharge summary":TRUE:FALSE
+"VISITS":"DISCHARGE_PATIENT":"Discharge patient":"Discharge patient":TRUE:FALSE
+"DIAGNOSES":"CREATE_VISIT_DIAGNOSIS":"Add diagnosis to a visit":"Add diagnosis to a visit":TRUE:FALSE
+"DIAGNOSES":"READ_VISIT_DIAGNOSES":"View all visit diagnoses":"View all visit diagnoses":TRUE:FALSE
+"DIAGNOSES":"UPDATE_VISIT_DIAGNOSIS":"Modify diagnosis record in a visit":"Modify diagnosis record in a visit":TRUE:FALSE
+"MEDICATIONS":"CREATE_VISIT_MEDICATION":"Create new visit medication entry":"Create new  visit medication entry":TRUE:FALSE
+"MEDICATIONS":"CREATE_REQUEST_FROM_VISIT_MEDICATION":"Create new request from visit medication entry":"Create new request from visit medication entry":TRUE:FALSE
+"MEDICATIONS":"READ_VISIT_MEDICATIONS":"View visit medication entries":"View visit medication entries":TRUE:FALSE
+"MEDICATIONS":"UPDATE_VISIT_MEDICATION":"Modify visit medication entry record":"Modify visit medication entry information":TRUE:FALSE
+"MEDICATIONS":"DELETE_VISIT_MEDICATION":"Delete visit medication entry":"Delete visit medication entry":TRUE:FALSE
+"DRUG ADMINISTRATION":"CREATE_DRUG_ADMINISTRATION":"Create new drug administration":"Create new drug administration":TRUE:FALSE
+"DRUG ADMINISTRATION":"READ_DRUG_ADMINISTRATIONS":"View drug administrations":"View drug administrations":TRUE:FALSE
+"DRUG ADMINISTRATION":"UPDATE_DRUG_ADMINISTRATION":"Modify drug administration record":"Modify drug administration information":TRUE:FALSE
+"DRUG ADMINISTRATION":"DELETE_DRUG_ADMINISTRATION":"Delete drug administration":"Delete drug administration":TRUE:FALSE
+"REFERRALS":"CREATE_REFERRAL":"Create new referral":"Create new referral":TRUE:FALSE
+"REFERRALS":"READ_REFERRALS":"View patient referrals":"View patient referrals":TRUE:FALSE
+"REFERRALS":"UPDATE_REFERRAL":"Modify referral record":"Modify patient referral information":TRUE:FALSE
+"REFERRALS":"DELETE_REFERRAL":"Delete patient referral":"Delete patient referral":TRUE:FALSE
+"REQUESTS":"CREATE_REQUESTS":"Create new requests to departments":"Create new requests to departments":TRUE:FALSE
+"REQUESTS":"READ_REQUESTS":"View all requests":"View all requests":TRUE:FALSE
+"REQUESTS":"READ_DEPARTMENTAL_REQUESTS":"View departmental requests only":"View departmental requests only":TRUE:FALSE
+"REQUESTS":"UPDATE_REQUEST":"Modify a request":"Modify a requests":TRUE:FALSE
+"REQUESTS":"DELETE_REQUEST":"Delete request":"Delete request":TRUE:FALSE
+"NOTES":"CREATE_VISIT_NOTE":"Create new visit note":"Create new visit note":TRUE:FALSE
+"NOTES":"READ_VISIT_NOTES":"View visit notes":"View visit notes":TRUE:FALSE
+"NOTES":"UPDATE_VISIT_NOTE":"Modify existing visit note":"Modify existing visit note":TRUE:FALSE
+"NOTES":"DELETE_VISIT_NOTE":"Delete existing visit note":"Delete existing visit note":TRUE:FALSE
+"DISCHARGE DISPOSITIONS":"CREATE_DISCHARGE_DISPOSITION":"Create new discharge disposition":"Create new discharge disposition":TRUE:FALSE
+"DISCHARGE DISPOSITIONS":"READ_DISCHARGE_DISPOSITIONS":"View discharge dispositions":"View discharge dispositions":TRUE:FALSE
+"DISCHARGE DISPOSITIONS":"UPDATE_DISCHARGE_DISPOSITION":"Modify discharge disposition record":"Modify discharge disposition information":TRUE:FALSE
+"DISCHARGE DISPOSITIONS":"DELETE_DISCHARGE_DISPOSITION":"Delete discharge disposition":"Delete discharge disposition":TRUE:FALSE
+"TRIAGE CATEGORIES":"CREATE_TRIAGE_CATEGORY":"Create new triage category":"Create new triage category":TRUE:FALSE
+"TRIAGE CATEGORIES":"READ_TRIAGE_CATEGORIES":"View triage categories":"View triage categories":TRUE:FALSE
+"TRIAGE CATEGORIES":"UPDATE_TRIAGE_CATEGORY":"Modify triage category record":"Modify triage category information":TRUE:FALSE
+"TRIAGE CATEGORIES":"DELETE_TRIAGE_CATEGORY":"Delete triage category":"Delete triage category":TRUE:FALSE
+"VISIT TYPES":"CREATE_VISIT_TYPE":"Create new visit type":"Create new visit type":TRUE:FALSE
+"VISIT TYPES":"READ_VISIT_TYPES":"View visit types":"View visit types":TRUE:FALSE
+"VISIT TYPES":"UPDATE_VISIT_TYPE":"Modify visit type record":"Modify visit type information":TRUE:FALSE
+"VISIT TYPES":"DELETE_VISIT_TYPE":"Delete visit type":"Delete visit type":TRUE:FALSE
+"VISIT HANDOVER REASONS":"CREATE_VISIT_HANDOVER_REASON":"Create new visit handover reason":"Create new visit handover reason":TRUE:FALSE
+"VISIT HANDOVER REASONS":"READ_VISIT_HANDOVER_REASONS":"View visit handover reason":"View visit handover reasons":TRUE:FALSE
+"VISIT HANDOVER REASONS":"UPDATE_VISIT_HANDOVER_REASON":"Modify visit handover reason record":"Modify visit handover reason information":TRUE:FALSE
+"VISIT HANDOVER REASONS":"DELETE_VISIT_HANDOVER_REASON":"Delete visit handover reason":"Delete visit handover reason":TRUE:FALSE
+"SPECIMENS":"CREATE_SPECIMEN":"Create new specimen":"Create new specimen":TRUE:FALSE
+"SPECIMENS":"READ_SPECIMENS":"View specimens":"View specimens":TRUE:FALSE
+"SPECIMENS":"UPDATE_SPECIMEN":"Modify specimen record":"Modify specimen information":TRUE:FALSE
+"SPECIMENS":"DELETE_SPECIMEN":"Delete specimen":"Delete specimen":TRUE:FALSE
+"MEANS OF ARRIVAL":"CREATE_MEANS_OF_ARRIVAL":"Create new means of arrival":"Create new means of arrival":TRUE:FALSE
+"MEANS OF ARRIVAL":"READ_MEANS_OF_ARRIVAL":"View means of arrival":"View means of arrival":TRUE:FALSE
+"MEANS OF ARRIVAL":"UPDATE_MEANS_OF_ARRIVAL":"Modify means of arrival record":"Modify means of arrival information":TRUE:FALSE
+"MEANS OF ARRIVAL":"DELETE_MEANS_OF_ARRIVAL":"Delete means of arrival":"Delete means of arrival":TRUE:FALSE
+"DEPARTMENTS":"CREATE_DEPARTMENT":"Create new department":"Create new department":TRUE:FALSE
+"DEPARTMENTS":"READ_DEPARTMENTS":"View departments":"View departments":TRUE:FALSE
+"DEPARTMENTS":"UPDATE_DEPARTMENT":"Modify department record":"Modify department information":TRUE:FALSE
+"DEPARTMENTS":"DELETE_DEPARTMENT":"Delete department":"Delete department":TRUE:FALSE
+"IDENTIFICATION TYPES":"CREATE_IDENTIFICATION_TYPE":"Create new identification type":"Create new identification type":TRUE:FALSE
+"IDENTIFICATION TYPES":"READ_IDENTIFICATION_TYPES":"View identification types":"View identification types":TRUE:FALSE
+"IDENTIFICATION TYPES":"UPDATE_IDENTIFICATION_TYPE":"Modify identification type record":"Modify identification type information":TRUE:FALSE
+"IDENTIFICATION TYPES":"DELETE_IDENTIFICATION_TYPE":"Delete identification type":"Delete identification type":TRUE:FALSE
+"RELIGIONS":"CREATE_RELIGION":"Create new religion":"Create new religion":TRUE:FALSE
+"RELIGIONS":"READ_RELIGIONS":"View religions":"View religions":TRUE:FALSE
+"RELIGIONS":"UPDATE_RELIGION":"Modify religion record":"Modify religion information":TRUE:FALSE
+"RELIGIONS":"DELETE_RELIGION":"Delete religion":"Delete religion":TRUE:FALSE
+"TITLES":"CREATE_TITLE":"Create new title":"Create new title":TRUE:FALSE
+"TITLES":"READ_TITLES":"View titles":"View titles":TRUE:FALSE
+"TITLES":"UPDATE_TITLE":"Modify title record":"Modify title information":TRUE:FALSE
+"TITLES":"DELETE_TITLE":"Delete title":"Delete title":TRUE:FALSE
+"PATIENTS":"CREATE_PATIENT":"Create new patient":"Create new patient":TRUE:FALSE
+"PATIENTS":"IMPORT_PATIENTS":"Import new patients":"Import new patients":TRUE:FALSE
+"PATIENTS":"READ_PATIENTS":"View patients":"View patients":TRUE:FALSE
+"PATIENTS":"UPDATE_PATIENT":"Modify a patient record":"Modify patient information":TRUE:FALSE
+"PATIENTS":"DELETE_PATIENT":"Delete a patient record":"Delete patient":TRUE:FALSE
+"PATIENTS":"CREATE_PATIENT_WALLET":"Create new patient wallet":"Create new patient wallet":TRUE:FALSE
+"PATIENTS":"READ_PATIENT_WALLETS":"View patient's wallet":"View patient's wallet":TRUE:FALSE
+"PATIENTS":"UPDATE_PATIENT_WALLET":"Modify patient's wallet":"Modify patient's wallet":TRUE:FALSE
+"PATIENTS":"DELETE_PATIENT_WALLET":"Delete patient's wallet":"Delete patient's wallet":TRUE:FALSE
+"PATIENTS":"CREATE_PATIENT_MEDICAL_HISTORY":"Add entry patient's medical history":"Add new entry to patient's medical history":TRUE:FALSE
+"PATIENTS":"READ_PATIENT_MEDICAL_HISTORY":"View patient's medical history":"View patient's medical history":TRUE:FALSE
+"PATIENTS":"UPDATE_PATIENT_MEDICAL_HISTORY":"Modify an entry in patient's medical history":"Modify patient's medical history":TRUE:FALSE
+"PATIENTS":"DELETE_PATIENT_MEDICAL_HISTORY":"Delete an entry in patient's medical history":"Delete patient's medical history":TRUE:FALSE
+"DIAGNOSES":"READ_PATIENT_DIAGNOSES":"View patient's past diagnoses":"View patient's past diagnoses":TRUE:FALSE
+"MEDICATIONS":"READ_PATIENT_MEDICATIONS":"View patient's past medications":"View patient's past medications":TRUE:FALSE
+"PRESCRIPTIONS":"READ_PATIENT_PRESCRIPTIONS":"View patient's past prescriptions":"View patient's past prescriptions":TRUE:FALSE
+"CHARGE TYPES":"CREATE_CHARGE_TYPE":"Create new charge type":"Create new charge type":TRUE:FALSE
+"CHARGE TYPES":"READ_CHARGE_TYPES":"View charge types":"View charge types":TRUE:FALSE
+"CHARGE TYPES":"UPDATE_CHARGE_TYPE":"Modify charge type record":"Modify charge type information":TRUE:FALSE
+"CHARGE TYPES":"DELETE_CHARGE_TYPE":"Delete charge type":"Delete charge type":TRUE:FALSE
+"WALLET TYPES":"CREATE_WALLET_TYPE":"Create new wallet type":"Create new wallet type":TRUE:FALSE
+"WALLET TYPES":"READ_WALLET_TYPES":"View wallet types":"View wallet types":TRUE:FALSE
+"WALLET TYPES":"UPDATE_WALLET_TYPE":"Modify wallet type record":"Modify wallet type information":TRUE:FALSE
+"WALLET TYPES":"DELETE_WALLET_TYPE":"Delete wallet type":"Delete wallet type":TRUE:FALSE
+"ACCOUNT PREFERENCES":"READ_ACCOUNT_PREFERENCES":"View account preferences":"View account preferences":TRUE:FALSE
+"ACCOUNT PREFERENCES":"UPDATE_ACCOUNT_PREFERENCE":"Modify account preference definition":"Modify account preference information":TRUE:FALSE
+"ACCOUNTS":"CREATE_ACCOUNT":"Create new account":"Create new account":TRUE:FALSE
+"ACCOUNTS":"READ_ACCOUNTS":"View accounts":"View accounts":TRUE:FALSE
+"ACCOUNTS":"UPDATE_ACCOUNT":"Modify account record":"Modify account information":TRUE:FALSE
+"ACCOUNTS":"DELETE_ACCOUNT":"Delete account":"Delete account":TRUE:FALSE
+"CURRENCIES":"READ_CURRENCIES":"View currencies":"View currencies":TRUE:FALSE
+"TRADING CURRENCIES":"CREATE_TRADING_CURRENCY":"Create new trading currency":"Create new trading currency":TRUE:FALSE
+"TRADING CURRENCIES":"READ_TRADING_CURRENCIES":"View trading currency":"View trading currencies":TRUE:FALSE
+"TRADING CURRENCIES":"UPDATE_TRADING_CURRENCY":"Modify trading currency record":"Modify trading currency information":TRUE:FALSE
+"TRADING CURRENCIES":"DELETE_TRADING_CURRENCY":"Delete trading currency":"Delete trading currency":TRUE:FALSE
+"TAX TYPES":"CREATE_TAX_TYPE":"Create new tax type":"Create new tax type":TRUE:FALSE
+"TAX TYPES":"READ_TAX_TYPES":"View tax types":"View tax types":TRUE:FALSE
+"TAX TYPES":"UPDATE_TAX_TYPE":"Modify tax type record":"Modify tax type information":TRUE:FALSE
+"TAX TYPES":"DELETE_TAX_TYPE":"Delete tax type":"Delete tax type":TRUE:FALSE
+"TAX CODES":"CREATE_TAX_CODE":"Create new tax code":"Create new tax code":TRUE:FALSE
+"TAX CODES":"READ_TAX_CODES":"View tax codes":"View tax codes":TRUE:FALSE
+"TAX CODES":"UPDATE_TAX_CODE":"Modify tax code record":"Modify tax code information":TRUE:FALSE
+"TAX CODES":"DELETE_TAX_CODE":"Delete tax code":"Delete tax code":TRUE:FALSE
+"TAGS":"CREATE_TAG":"Create new tag":"Create new tag":TRUE:FALSE
+"TAGS":"READ_TAG":"View tag":"View tax codes":TRUE:FALSE
+"TAGS":"UPDATE_TAG":"Modify tag record":"Modify tag information":TRUE:FALSE
+"TAGS":"DELETE_TAG":"Delete tag":"Delete tag":TRUE:FALSE
+"TAGS":"CREATE_TAG_TYPE":"Create new tag type":"Create new tag type":TRUE:FALSE
+"TAGS":"READ_TAG_TYPE":"View tag type":"View tag type":TRUE:FALSE
+"TAGS":"UPDATE_TAG_TYPE":"Modify tag type record":"Modify tag type information":TRUE:FALSE
+"TAGS":"DELETE_TAG_TYPE":"Delete tag type":"Delete tag type":TRUE:FALSE
+"CUSTOMER CATEGORIES":"CREATE_CUSTOMER_CATEGORY":"Create new customer category":"Create new customer category":TRUE:FALSE
+"CUSTOMER CATEGORIES":"READ_CUSTOMER_CATEGORIES":"View customer categories":"View customer categories":TRUE:FALSE
+"CUSTOMER CATEGORIES":"UPDATE_CUSTOMER_CATEGORY":"Modify customer category record":"Modify customer category information":TRUE:FALSE
+"CUSTOMER CATEGORIES":"DELETE_CUSTOMER_CATEGORY":"Delete customer category":"Delete customer category":TRUE:FALSE
+"VENDOR CATEGORIES":"CREATE_VENDOR_CATEGORY":"Create new vendor category":"Create new vendor category":TRUE:FALSE
+"VENDOR CATEGORIES":"READ_VENDOR_CATEGORIES":"View vendor categories":"View vendor categories":TRUE:FALSE
+"VENDOR CATEGORIES":"UPDATE_VENDOR_CATEGORY":"Modify vendor category record":"Modify vendor category information":TRUE:FALSE
+"VENDOR CATEGORIES":"DELETE_VENDOR_CATEGORY":"Delete vendor category":"Delete vendor category":TRUE:FALSE
+"CONTACTS":"CREATE_CONTACT":"Create new contact":"Create new contact":TRUE:FALSE
+"CONTACTS":"IMPORT_CONTACTS":"Import new contacts":"Import new contacts":TRUE:FALSE
+"CONTACTS":"READ_CONTACTS":"View contacts":"View contacts":TRUE:FALSE
+"CONTACTS":"UPDATE_CONTACT":"Modify contact record":"Modify contacts information":TRUE:FALSE
+"CONTACTS":"DELETE_CONTACT":"Delete contacts":"Delete contacts":TRUE:FALSE
+"CUSTOMERS":"READ_CUSTOMERS":"View customers":"View customers":TRUE:FALSE
+"VENDORS":"READ_CONTACTS":"View vendors":"View vendors":TRUE:FALSE
+"SCHEMES":"CREATE_SCHEME":"Create new customer scheme /employer":"Create new customer scheme /employer":TRUE:FALSE
+"SCHEMES":"READ_SCHEMES":"View customer schemes /employers":"View customer schemes /employers":TRUE:FALSE
+"SCHEMES":"UPDATE_SCHEME":"Modify customer scheme / employer":"Modify customer scheme / employer information":TRUE:FALSE
+"SCHEMES":"DELETE_SCHEME":"Delete customer scheme / employer":"Delete customer scheme / employer":TRUE:FALSE
+"PAYMENT METHODS":"CREATE_PAYMENT_METHOD":"Create new payment method":"Create new payment method":TRUE:FALSE
+"PAYMENT METHODS":"READ_PAYMENT_METHODS":"View payment methods":"View payment methods":TRUE:FALSE
+"PAYMENT METHODS":"UPDATE_PAYMENT_METHOD":"Modify payment method record":"Modify payment method definition":TRUE:FALSE
+"PAYMENT METHODS":"DELETE_PAYMENT_METHOD":"Delete payment method":"Delete payment method":TRUE:FALSE
+"PAYMENT TERMS":"CREATE_PAYMENT_TERM":"Create new payment term":"Create new payment term":TRUE:FALSE
+"PAYMENT TERMS":"READ_PAYMENT_TERMS":"View payment terms":"View payment terms":TRUE:FALSE
+"PAYMENT TERMS":"UPDATE_PAYMENT_TERM":"Modify payment record":"Modify payment term definition":TRUE:FALSE
+"PAYMENT TERMS":"DELETE_PAYMENT_TERM":"Delete payment term":"Delete payment term":TRUE:FALSE
+"REQUISITIONS":"CREATE_REQUISITION":"Create new requisition":"Create new requisition":TRUE:FALSE
+"REQUISITIONS":"READ_DEPARTMENTAL_REQUISITIONS":"View departmental requisitions":"View departmental requisitions":TRUE:FALSE
+"REQUISITIONS":"READ_REQUISITIONS":"View requisitions":"View requisitions":TRUE:FALSE
+"REQUISITIONS":"READ_REQUISITION":"View requisition":"View requisition":TRUE:FALSE
+"REQUISITIONS":"UPDATE_REQUISITION":"Modify requisition record":"Modify requisition information":TRUE:FALSE
+"REQUISITIONS":"DELETE_REQUISITION":"Delete requisition":"Delete requisition":TRUE:FALSE
+"PURCHASE ORDERS":"CREATE_PURCHASE_ORDER":"Create new purchase from requisition":"Create new purchase order from requisition":TRUE:FALSE
+"PURCHASE ORDERS":"CREATE_DIRECT_PURCHASE_ORDER":"Create new direct purchase order":"Create new direct purchase order":TRUE:FALSE
+"PURCHASE ORDERS":"READ_PURCHASE_ORDERS":"View purchase orders":"View purchase orders":TRUE:FALSE
+"PURCHASE ORDERS":"READ_PURCHASE_ORDER":"View purchase order":"View purchase order":TRUE:FALSE
+"PURCHASE ORDERS":"UPDATE_PURCHASE_ORDER":"Modify purchase order record":"Modify purchase order information":TRUE:FALSE
+"PURCHASE ORDERS":"DELETE_PURCHASE_ORDER":"Delete purchase order":"Delete purchase order":TRUE:FALSE
+"PURCHASE ORDERS":"CLOSE_PURCHASE_ORDER":"Mark purchase order as Closed":"Mark purchase order as Closed":TRUE:FALSE
+"PURCHASE ORDERS":"OPEN_PURCHASE_ORDER":"Mark purchase order as Opened":"Mark purchase order as Opened":TRUE:FALSE
+"PURCHASE ITEMS":"CREATE_PURCHASE_ITEM":"Create new purchase item":"Create new purchase item":TRUE:FALSE
+"PURCHASE ITEMS":"READ_PURCHASE_ITEMS":"View purchase items":"View purchase items":TRUE:FALSE
+"PURCHASE ITEMS":"UPDATE_PURCHASE_ITEM":"Modify purchase item record":"Modify purchase item information":TRUE:FALSE
+"PURCHASE ITEMS":"DELETE_PURCHASE_ITEM":"Delete purchase item":"Delete purchase item":TRUE:FALSE
+"GOODS RECEIPTS":"CREATE_GOODS_RECEIPT":"Create new goods receipt note from purchase order":"Create new goods receipt note from purchase order":TRUE:FALSE
+"GOODS RECEIPTS":"CREATE_DIRECT_GOODS_RECEIPT":"Create new goods receipt note":"Create new goods receipt note":TRUE:FALSE
+"GOODS RECEIPTS":"READ_GOODS_RECEIPTS":"View goods receipt notes":"View goods receipt notes":TRUE:FALSE
+"GOODS RECEIPTS":"READ_GOODS_RECEIPT":"View goods receipt note":"View goods receipt note":TRUE:FALSE
+"GOODS RECEIPTS":"UPDATE_GOODS_RECEIPT":"Modify goods receipt note record":"Modify goods receipt note information":TRUE:FALSE
+"GOODS RECEIPTS":"DELETE_GOODS_RECEIPT":"Delete goods receipt note":"Delete goods receipt note":TRUE:FALSE
+"SERVICES RECEIPTS":"CREATE_SERVICE_RECEIPT":"Create new service receipt note from purchase order":"Create new service receipt note from purchase order":TRUE:FALSE
+"SERVICES RECEIPTS":"CREATE_DIRECT_SERVICE_RECEIPT":"Create new service receipt note":"Create new service receipt note":TRUE:FALSE
+"SERVICES RECEIPTS":"READ_SERVICE_RECEIPTS":"View service receipt notes":"View service receipt notes":TRUE:FALSE
+"SERVICES RECEIPTS":"READ_SERVICE_RECEIPT":"View service receipt note":"View service receipt note":TRUE:FALSE
+"SERVICES RECEIPTS":"UPDATE_SERVICE_RECEIPT":"Modify service receipt note record":"Modify service receipt note information":TRUE:FALSE
+"SERVICES RECEIPTS":"DELETE_SERVICE_RECEIPT":"Delete service receipt note":"Delete service receipt note":TRUE:FALSE
+"INVENTORY TRANSFERS":"CREATE_INVENTORY_TRANSFER":"Create new inventory transfers":"Create new inventory transfer":TRUE:FALSE
+"INVENTORY TRANSFERS":"READ_INVENTORY_TRANSFERS":"View inventory transfers":"View inventory transfers":TRUE:FALSE
+"INVENTORY TRANSFERS":"READ_INVENTORY_TRANSFER":"View inventory transfer":"View inventory transfer":TRUE:FALSE
+"INVENTORY TRANSFERS":"UPDATE_INVENTORY_TRANSFER":"Modify inventory transfer record":"Modify inventory transfer information":TRUE:FALSE
+"INVENTORY TRANSFERS":"DELETE_INVENTORY_TRANSFER":"Delete inventory transfer":"Delete inventory transfer":TRUE:FALSE
+"INVENTORY ADJUSTMENTS":"CREATE_INVENTORY_ADJUSTMENT_REASON":"Create new inventory adjustment reason":"Create new inventory adjustment reason":TRUE:FALSE
+"INVENTORY ADJUSTMENTS":"READ_INVENTORY_ADJUSTMENT_REASONS":"View inventory adjustment reasons":"View inventory adjustment reasons":TRUE:FALSE
+"INVENTORY ADJUSTMENTS":"UPDATE_INVENTORY_ADJUSTMENT_REASON":"Modify inventory adjustment reason record":"Modify inventory adjustment reason information":TRUE:FALSE
+"INVENTORY ADJUSTMENTS":"DELETE_INVENTORY_ADJUSTMENT_REASON":"Delete inventory adjustment reason":"Delete inventory adjustment reason":TRUE:FALSE
+"INVENTORY ADJUSTMENTS":"CREATE_INVENTORY_ADJUSTMENT":"Create new inventory adjustment":"Create new inventory adjustment":TRUE:FALSE
+"INVENTORY ADJUSTMENTS":"READ_INVENTORY_ADJUSTMENTS":"View inventory adjustments":"View inventory adjustments":TRUE:FALSE
+"INVENTORY ADJUSTMENTS":"UPDATE_INVENTORY_ADJUSTMENT":"Modify inventory adjustment record":"Modify inventory adjustment reason":TRUE:FALSE
+"INVENTORY ADJUSTMENTS":"DELETE_INVENTORY_ADJUSTMENT":"Delete inventory adjustment":"Delete inventory adjustment":TRUE:FALSE
+"STOCKTAKE":"CREATE_STOCKTAKE_LIST":"Create new stocktake list":"Create new stocktake list":TRUE:FALSE
+"STOCKTAKE":"READ_STOCKTAKE_LISTS":"View stocktake lists":"View stocktake lists":TRUE:FALSE
+"STOCKTAKE":"READ_STOCKTAKE_LIST":"View stocktake list":"View stocktake list":TRUE:FALSE
+"STOCKTAKE":"UPDATE_STOCKTAKE_LIST":"Modify stocktake list record":"Modify stocktake list information":TRUE:FALSE
+"STOCKTAKE":"DELETE_STOCKTAKE_LIST":"Delete stocktake list":"Delete stocktake list":TRUE:FALSE
+"STOCKS":"CREATE_STOCK":"Create new stocks":"Create new stock":TRUE:FALSE
+"STOCKS":"READ_STOCKS":"View stocks":"View stocks":TRUE:FALSE
+"GOODS RETURNS":"CREATE_GOODS_RETURN":"Create new goods return":"Create new goods return":TRUE:FALSE
+"GOODS RETURNS":"READ_GOODS_RETURNS":"View goods returns":"View goods returns":TRUE:FALSE
+"GOODS RETURNS":"UPDATE_GOODS_RETURN":"Modify goods return record":"Modify goods return information":TRUE:FALSE
+"GOODS RETURNS":"DELETE_GOODS_RETURN":"Delete goods return":"Delete goods return record":TRUE:FALSE
+"GOODS RETURN REASONS":"CREATE_GOODS_RETURN_REASON":"Create new goods return reason":"Create new goods return reason":TRUE:FALSE
+"GOODS RETURN REASONS":"READ_GOODS_RETURN_REASONS":"View goods return reasons":"View goods return reasons":TRUE:FALSE
+"GOODS RETURN REASONS":"UPDATE_GOODS_RETURN_REASON":"Modify goods return reason record":"Modify goods return reason information":TRUE:FALSE
+"GOODS RETURN REASONS":"DELETE_GOODS_RETURN_REASON":"Delete goods return reason":"Delete goods return reason":TRUE:FALSE
+"MEDICAL RECORDS PREFERENCES":"READ_MEDICAL_RECORDS_PREFERENCES":"View medical records preferences":"View medical records preferences":TRUE:FALSE
+"MEDICAL RECORDS PREFERENCES":"UPDATE_MEDICAL_RECORDS_PREFERENCE":"Modify medical records preference definition":"Modify medical records preference information":TRUE:FALSE
+"TEMPLATES":"CREATE_TEMPLATE":"Create new template":"Create new template and link to product":TRUE:FALSE
+"TEMPLATES":"READ_TEMPLATES":"View templates":"View templates":TRUE:FALSE
+"TEMPLATES":"READ_ROLE_BASED_TEMPLATES":"View role-based templates":"View role-based templates":TRUE:FALSE
+"TEMPLATES":"UPDATE_TEMPLATE":"Modify template record":"Modify template information":TRUE:FALSE
+"TEMPLATES":"DELETE_TEMPLATE":"Delete template":"Delete template":TRUE:FALSE
+"BEDS":"CREATE_BED":"Create new admission bed":"Create new admission bed":TRUE:FALSE
+"BEDS":"READ_BEDS":"View admission beds":"View admission beds":TRUE:FALSE
+"BEDS":"UPDATE_BED":"Modify bed record":"Modify bed information":TRUE:FALSE
+"BEDS":"DELETE_BED":"Delete admission bed":"Delete admission bed":TRUE:FALSE
+"ADMISSIONS PREFERENCES":"READ_ADMISSIONS_PREFERENCES":"View admissions preferences":"View admissions preferences":TRUE:FALSE
+"ADMISSIONS PREFERENCES":"UPDATE_ADMISSIONS_PREFERENCE":"Modify admissions preference definition":"Modify admissions preference information":TRUE:FALSE
+"ADMISSIONS":"CREATE_ADMISSION":"Create new patient admission":"Create new patient admission":TRUE:FALSE
+"ADMISSIONS":"READ_ADMISSIONS":"View admissions":"View admissions":TRUE:FALSE
+"ADMISSIONS":"UPDATE_ADMISSION":"Modify admission record":"Modify admission information":TRUE:FALSE
+"ADMISSIONS":"ASSIGN_ADMISSION_BED":"Assign bed to waiting / pending admission":"Assign bed to waiting / pending admission":TRUE:FALSE
+"ADMISSIONS":"DELETE_ADMISSION":"Delete admission":"Delete admission":TRUE:FALSE
+"OPERATIONAL THEATRE SCHEDULE":"CREATE_OPERATIONAL_THEATRE_SCHEDULE":"Create new operational theatre schedule entry":"Create new operational theatre schedule entry":TRUE:FALSE
+"OPERATIONAL THEATRE SCHEDULE":"READ_OPERATIONAL_THEATRE_SCHEDULES":"View operational theatre schedule entries":"View operational theatre schedule entries":TRUE:FALSE
+"OPERATIONAL THEATRE SCHEDULE":"UPDATE_OPERATIONAL_THEATRE_SCHEDULE":"Modify operational theatre schedule entry record":"Modify operational theatre schedule entry information":TRUE:FALSE
+"OPERATIONAL THEATRE SCHEDULE":"DELETE_OPERATIONAL_THEATRE_SCHEDULE":"Delete operational theatre schedule entry":"Delete operational theatre schedule entry":TRUE:FALSE
+"APPOINTMENT TYPES":"CREATE_APPOINTMENT_TYPE":"Create new a pointment type":"Create new appointment type":TRUE:FALSE
+"APPOINTMENT TYPES":"READ_APPOINTMENT_TYPES":"View appointment types":"View appointment types":TRUE:FALSE
+"APPOINTMENT TYPES":"UPDATE_APPOINTMENT_TYPE":"Modify appointment type record":"Modify appointment type information":TRUE:FALSE
+"APPOINTMENT TYPES":"DELETE_APPOINTMENT_TYPE":"Delete appointment type":"Delete appointment type":TRUE:FALSE
+"APPOINTMENTS":"CREATE_APPOINTMENT":"Create new appointment":"Create new appointment":TRUE:FALSE
+"APPOINTMENTS":"READ_APPOINTMENTS":"View appointments":"View appointments":TRUE:FALSE
+"APPOINTMENTS":"READ_DEPARTMENTAL_APPOINTMENTS":"View departmental appointments":"View departmental appointments":TRUE:FALSE
+"APPOINTMENTS":"UPDATE_APPOINTMENT":"Modify appointment record":"Modify appointment information":TRUE:FALSE
+"APPOINTMENTS":"DELETE_APPOINTMENT":"Delete appointment":"Delete appointment":TRUE:FALSE
+"FOLDERS":"CREATE_FOLDER":"View folder":"View folder":TRUE:FALSE
+"FOLDERS":"READ_FOLDERS":"View folders":"View folders":TRUE:FALSE
+"FOLDERS":"UPDATE_FOLDER":"Modify folder":"Modify folder information":TRUE:FALSE
+"FOLDERS":"DELETE_FOLDER":"Delete folder":"Delete folder":TRUE:FALSE
+"ATTACH FILE":"ATTACH_CONTACT_FILE":"Upload and attach file to contact":"Upload and attach file to contact profile":TRUE:FALSE
+"ATTACH FILE":"ATTACH_PATIENT_FILE":"Upload and attach file to patient":"Upload and attach file to patient profile":TRUE:FALSE
+"ATTACH FILE":"ATTACH_VISIT_FILE":"Upload and attach file to visit":"Upload and attach file to visit record":TRUE:FALSE
+"ATTACH FILE":"ATTACH_REQUEST_FILE":"Upload and attach file to request":"Upload and attach file to request record":TRUE:FALSE
+"ATTACH FILE":"ATTACH_ADMISSION_FILE":"Upload and attach file to admission":"Upload and attach file to admission record":TRUE:FALSE
+"ATTACH FILE":"ATTACH_PURCHASE_ORDER_FILE":"Upload and attach file to purchase order":"Upload and attach file to purchase order":TRUE:FALSE
+"ATTACH FILE":"ATTACH_GOODS_RECEIPT_FILE":"Upload and attach file to goods receipt":"Upload and attach file to goods receipt":TRUE:FALSE
+"ATTACH FILE":"ATTACH_GOODS_RETURN_FILE":"Upload and attach file to goods return":"Upload and attach file to goods return":TRUE:FALSE
+"VIEW FILE":"VIEW_CONTACT_FILE":"Download files attached to a contact":"Download files attached to a contact profile":TRUE:FALSE
+"VIEW FILE":"VIEW_PATIENT_FILE":"Download files attached to a patient":"Download files attached to a patient profile":TRUE:FALSE
+"VIEW FILE":"VIEW_VISIT_FILE":"Download files attached to a visit":"Download files attached to a visit record":TRUE:FALSE
+"VIEW FILE":"VIEW_REQUEST_FILE":"Download files attached to a request":"Download files attached to a request":TRUE:FALSE
+"VIEW FILE":"VIEW_ADMISSION_FILE":"Download files attached to an admission":"Download files attached to an admission record":TRUE:FALSE
+"VIEW FILE":"VIEW_PURCHASE_ORDER_FILE":"Download files attached to a purchase order":"Download files attached to a purchase order":TRUE:FALSE
+"VIEW FILE":"VIEW_GOODS_RECEIPT_FILE":"Download files attached to a goods receipt":"Download files attached to a goods receipt":TRUE:FALSE
+"VIEW FILE":"VIEW_GOODS_RETURN_FILE":"Download files attached to a goods return":"Download files attached to a goods return":TRUE:FALSE
+"DETACH FILE":"DELETE_CONTACT_FILE":"Detach file from contact":"Detach file from contact profile":TRUE:FALSE
+"DETACH FILE":"DELETE_PATIENT_FILE":"Detach file from patient":"Detach file from patient profile":TRUE:FALSE
+"DETACH FILE":"DELETE_VISIT_FILE":"Detach file from visit":"Detach file from visit record":TRUE:FALSE
+"DETACH FILE":"DELETE_REQUEST_FILE":"Detach file from request":"Detach file from request record":TRUE:FALSE
+"DETACH FILE":"DELETE_ADMISSION_FILE":"Detach file from admission":"Detach file from admission record":TRUE:FALSE
+"DETACH FILE":"DELETE_PURCHASE_ORDER_FILE":"Detach file from purchase order":"Detach file from purchase order record":TRUE:FALSE
+"DETACH FILE":"DELETE_GOODS_RECEIPT_FILE":"Detach file from goods receipt":"Detach file from goods receipt record":TRUE:FALSE
+"DETACH FILE":"DELETE_GOODS_RETURN_FILE":"Detach file from goods return":"Detach file from goods return record":TRUE:FALSE
+"PRODUCT GROUPS":"CREATE_PRODUCT_GROUP":"Create product group record":"Create product group record":TRUE:FALSE
+"PRODUCT GROUPS":"READ_PRODUCT_GROUPS":"View product groups record":"View product groups record":TRUE:FALSE
+"PRODUCT GROUPS":"UPDATE_PRODUCT_GROUP":"Modify product group record":"Modify product group record":TRUE:FALSE
+"PRODUCT GROUPS":"DELETE_PRODUCT_GROUP":"Delete product group record":"Delete product group record":TRUE:FALSE
+"FORMULATIONS":"CREATE_FORMULATION":"Create formulation record":"Create formulation record":TRUE:FALSE
+"FORMULATIONS":"READ_FORMULATIONS":"View formulations record":"View formulations record":TRUE:FALSE
+"FORMULATIONS":"UPDATE_FORMULATION":"Modify formulation record":"Modify formulation record":TRUE:FALSE
+"FORMULATIONS":"DELETE_FORMULATION":"Delete formulation record":"Delete formulation record":TRUE:FALSE
+"STRENGTHS":"CREATE_STRENGTH":"Create strength record":"Create strength record":TRUE:FALSE
+"STRENGTHS":"READ_STRENGTHS":"View strengths record":"View strengths record":TRUE:FALSE
+"STRENGTHS":"UPDATE_STRENGTH":"Modify strength record":"Modify strength record":TRUE:FALSE
+"STRENGTHS":"DELETE_STRENGTH":"Delete strength record":"Delete strength record":TRUE:FALSE
+"UNITS OF MEASURE":"CREATE_UNIT_OF_MEASURE":"Create unit of measure record":"Create unit of measure record":TRUE:FALSE
+"UNITS OF MEASURE":"READ_UNITS_OF_MEASURE":"View units of measure record":"View units of measure record":TRUE:FALSE
+"UNITS OF MEASURE":"UPDATE_UNIT_OF_MEASURE":"Modify unit of measure record":"Modify unit of measure record":TRUE:FALSE
+"UNITS OF MEASURE":"DELETE_UNIT_OF_MEASURE":"Delete unit of measure record":"Delete unit of measure record":TRUE:FALSE
+"ACTIVE INGREDIENTS":"CREATE_ACTIVE_INGREDIENT":"Create active ingredient record":"Create active ingredient record":TRUE:FALSE
+"ACTIVE INGREDIENTS":"READ_ACTIVE_INGREDIENTS":"View active ingredients record":"View active ingredients record":TRUE:FALSE
+"ACTIVE INGREDIENTS":"UPDATE_ACTIVE_INGREDIENT":"Modify active ingredient record":"Modify active ingredient record":TRUE:FALSE
+"ACTIVE INGREDIENTS":"DELETE_ACTIVE_INGREDIENT":"Delete active ingredient record":"Delete active ingredient record":TRUE:FALSE
+"ADMINISTRATION ROUTES":"CREATE_ADMINISTRATION_ROUTE":"Create administration route record":"Create administration route record":TRUE:FALSE
+"ADMINISTRATION ROUTES":"READ_ADMINISTRATION_ROUTES":"View administration routes record":"View administration routes record":TRUE:FALSE
+"ADMINISTRATION ROUTES":"UPDATE_ADMINISTRATION_ROUTE":"Modify administration route record":"Modify administration route record":TRUE:FALSE
+"ADMINISTRATION ROUTES":"DELETE_ADMINISTRATION_ROUTE":"Delete administration route record":"Delete administration route record":TRUE:FALSE
+"MANUFACTURERS":"CREATE_MANUFACTURER":"Create manufacturer record":"Create manufacturer record":TRUE:FALSE
+"MANUFACTURERS":"READ_MANUFACTURERS":"View manufacturers record":"View manufacturers record":TRUE:FALSE
+"MANUFACTURERS":"UPDATE_MANUFACTURER":"Modify manufacturer record":"Modify manufacturer record":TRUE:FALSE
+"MANUFACTURERS":"DELETE_MANUFACTURER":"Delete manufacturer record":"Delete manufacturer record":TRUE:FALSE
+"BRANDS":"CREATE_BRAND":"Create brand record":"Create brand record":TRUE:FALSE
+"BRANDS":"READ_BRANDS":"View brands record":"View brands record":TRUE:FALSE
+"BRANDS":"UPDATE_BRAND":"Modify brand record":"Modify brand record":TRUE:FALSE
+"BRANDS":"DELETE_BRAND":"Delete brand record":"Delete brand record":TRUE:FALSE
+"PRODUCTS":"IMPORT_PRODUCTS":"Import new products":"Import new products":TRUE:FALSE
+"PRODUCTS":"CREATE_PRODUCT":"Create new product":"Create new product":TRUE:FALSE
+"PRODUCTS":"READ_PRODUCTS":"View products":"View products":TRUE:FALSE
+"PRODUCTS":"READ_PRODUCT":"View product":"View product":TRUE:FALSE
+"PRODUCTS":"UPDATE_PRODUCT":"Modify product record":"Modify product information":TRUE:FALSE
+"PRODUCTS":"DELETE_PRODUCT":"Delete product":"Delete product":TRUE:FALSE
+"PRICES":"CREATE_PRICE":"Create new price":"Create new price":TRUE:FALSE
+"PRICES":"READ_PRICES":"View prices":"View prices":TRUE:FALSE
+"PRICES":"UPDATE_PRICE":"Modify price record":"Modify price information":TRUE:FALSE
+"PRICES":"DELETE_PRICE":"Delete price":"Delete price":TRUE:FALSE
+"PRICE LISTS":"CREATE_PRICE_LIST":"Create new price list":"Create new price list":TRUE:FALSE
+"PRICE LISTS":"READ_PRICE_LISTS":"View price lists":"View price lists":TRUE:FALSE
+"PRICE LISTS":"UPDATE_PRICE_LIST":"Modify price list record":"Modify price list information":TRUE:FALSE
+"PRICE LISTS":"DELETE_PRICE_LIST":"Delete price list":"Delete price list":TRUE:FALSE
+"DEDUCTION TYPES":"CREATE_DEDUCTION_TYPE":"Create new deduction type":"Create new deduction type":TRUE:FALSE
+"DEDUCTION TYPES":"READ_DEDUCTIONS_TYPE":"View deduction types":"View deduction type":TRUE:FALSE
+"DEDUCTION TYPES":"UPDATE_DEDUCTION_TYPE":"Modify deduction type record":"Modify deduction type information":TRUE:FALSE
+"DEDUCTION TYPES":"DELETE_DEDUCTION_TYPE":"Delete deduction type":"Delete deduction type":TRUE:FALSE
+"INVENTORY PREFERENCES":"READ_INVENTORY_PREFERENCES":"View inventory preferences":"View inventory preferences":TRUE:FALSE
+"INVENTORY PREFERENCES":"UPDATE_INVENTORY_PREFERENCE":"Modify inventory preference definition":"Modify inventory preferences information":TRUE:FALSE
+"ER MEDICO LEGAL":"CREATE_MEDICO_LEGAL_JURISPRUDENCE":"Create new ER medical legal jurisprudence definition":"Create new ER medical legal jurisprudence definition":TRUE:FALSE
+"ER MEDICO LEGAL":"READ_MEDICO_LEGAL_JURISPRUDENCES":"View ER medical legal jurisprudence definition":"View ER medical legal jurisprudence definitions":TRUE:FALSE
+"ER MEDICO LEGAL":"UPDATE_MEDICO_LEGAL_JURISPRUDENCE":"Modify ER medical legal jurisprudence definition":"Modify ER medical legal jurisprudence definition":TRUE:FALSE
+"ER MEDICO LEGAL":"DELETE_MEDICO_LEGAL_JURISPRUDENCE":"Delete ER medical legal jurisprudence definition":"Delete ER medical legal jurisprudence definition":TRUE:FALSE
+"DEPOSIT DEFINITIONS":"CREATE_DEPOSIT_DEFINITION":"Create deposit definition":"Create deposit definition":TRUE:FALSE
+"DEPOSIT DEFINITIONS":"READ_DEPOSIT_DEFINITIONS":"View deposit definitions":"View deposit definitions":TRUE:FALSE
+"DEPOSIT DEFINITIONS":"UPDATE_DEPOSIT_DEFINITION":"Modify deposit definition record":"Modify deposit definition information":TRUE:FALSE
+"DEPOSIT DEFINITIONS":"DELETE_DEPOSIT_DEFINITION":"Delete deposit definition":"Delete deposit definition":TRUE:FALSE
+"PATIENT DEPOSITS":"CREATE_PATIENT_DEPOSIT":"Create patient deposit":"Create patient deposit":TRUE:FALSE
+"PATIENT DEPOSITS":"READ_PATIENT_DEPOSITS":"View patient deposits":"View patient deposits":TRUE:FALSE
+"PATIENT DEPOSITS":"UPDATE_PATIENT_DEPOSIT":"Modify patient deposit record":"Modify patient deposit information":TRUE:FALSE
+"PATIENT DEPOSITS":"DELETE_PATIENT_DEPOSIT":"Delete patient deposit":"Delete patient deposit":TRUE:FALSE
+"PATIENT DEPOSIT REQUESTS":"CREATE_PATIENT_DEPOSIT_REQUEST":"Create patient deposit request":"Create patient deposit request":TRUE:FALSE
+"PATIENT DEPOSIT REQUESTS":"READ_PATIENT_DEPOSIT_REQUESTS":"View patient deposit requests":"View patient deposit requests":TRUE:FALSE
+"PATIENT DEPOSIT REQUESTS":"UPDATE_PATIENT_DEPOSIT_REQUEST":"Modify patient deposit request record":"Modify patient deposit request information":TRUE:FALSE
+"PATIENT DEPOSIT REQUESTS":"DELETE_PATIENT_DEPOSIT_REQUEST":"Delete patient deposit request":"Delete patient deposit request":TRUE:FALSE
+"INTEGRATION CHANNELS":"CREATE_INTEGRATION_CHANNEL":"Create new integration channel":"Create new integration channel":TRUE:FALSE
+"INTEGRATION CHANNELS":"READ_INTEGRATION_CHANNELS":"View integration channels":"View integration channels":TRUE:FALSE
+"INTEGRATION CHANNELS":"UPDATE_INTEGRATION_CHANNEL":"Modify integration channel record":"Modify integration channel information":TRUE:FALSE
+"INTEGRATION CHANNELS":"DELETE_INTEGRATION_CHANNEL":"Delete integration channel":"Delete integration channel":TRUE:FALSE
+"PATIENT GUARDIANS":"CREATE_PATIENT_GUARDIAN":"Create new patient guardian":"Create new patient guardian":TRUE:FALSE
+"PATIENT GUARDIANS":"READ_PATIENT_GUARDIANS":"View patient guardians":"View patient guardians":TRUE:FALSE
+"PATIENT GUARDIANS":"UPDATE_PATIENT_GUARDIAN":"Modify patient guardian record":"Modify patient guardian information":TRUE:FALSE
+"PATIENT GUARDIANS":"DELETE_PATIENT_GUARDIAN":"Delete patient guardian":"Delete patient guardian":TRUE:FALSE
+"NEXT OF KINS":"CREATE_NEXT_OF_KIN":"Create new user next of kin":"Create new user next of kin":TRUE:FALSE
+"NEXT OF KINS":"READ_NEXT_OF_KINS":"View user next of kins":"View user next of kin":TRUE:FALSE
+"NEXT OF KINS":"UPDATE_NEXT_OF_KIN":"Modify user next of kin record":"Modify user next of kin information":TRUE:FALSE
+"NEXT OF KINS":"DELETE_NEXT_OF_KIN":"Delete user next of kin":"Delete user next of kin":TRUE:FALSE
+"CUSTOMER REFUNDS":"CREATE_CUSTOMER_REFUND":"Create new customer refund":"Create new customer refund":TRUE:FALSE
+"CUSTOMER REFUNDS":"READ_CUSTOMER_REFUNDS":"View customer refunds":"View customer refunds":TRUE:FALSE
+"CUSTOMER REFUNDS":"UPDATE_CUSTOMER_REFUND":"Modify customer refund record":"Modify customer refund information":TRUE:FALSE
+"CUSTOMER REFUNDS":"DELETE_CUSTOMER_REFUND":"Delete customer refund":"Delete customer refund":TRUE:FALSE
+"INSTITUTIONS":"CREATE_INSTITUTION":"Create institution":"Create institution record":FALSE:FALSE
+"INSTITUTIONS":"READ_MY_INSTITUTION":"View my institution":"View my institution":TRUE:FALSE
+"INSTITUTIONS":"READ_INSTITUTIONS":"View institutions":"View institutions":FALSE:FALSE
+"INSTITUTIONS":"UPDATE_INSTITUTION":"Update institution":"Update institution":FALSE:FALSE
+"INSTITUTIONS":"UPDATE_MY_INSTITUTION":"Update my institution":"Update my institution":TRUE:FALSE
+"LICENCES":"CREATE_INSTITUTION_LICENCE":"Create licence for institution":"Create institution licence record":FALSE:FALSE
+"LICENCES":"READ_LICENCES":"View licences":"View licences":FALSE:FALSE
+"LICENCES":"READ_MY_LICENCE":"View my licence":"View my licence record":TRUE:FALSE
+"LICENCES":"DELETE_LICENCE":"Delete licence":"Delete licence record":FALSE:FALSE
+"DIAGNOSES":"CREATE_DIAGNOSIS_VERSION":"Create diagnosis version":"Create diagnosis version record":TRUE:FALSE
+"DIAGNOSES":"READ_DIAGNOSIS_VERSIONS":"View diagnosis versions":"View diagnosis versions":TRUE:FALSE
+"DIAGNOSES":"UPDATE_DIAGNOSIS_VERSION":"Update diagnosis version":"Update diagnosis version record":TRUE:FALSE
+"DIAGNOSES":"DELETE_DIAGNOSIS_VERSION":"Delete diagnosis version":"Delete diagnosis version record":TRUE:FALSE
+"DIAGNOSES":"IMPORT_DIAGNOSES":"Import custom diagnoses codes":"Import custom diagnoses codes":TRUE:FALSE
+"BILLING GROUPS":"CREATE_BILLING_GROUP":"Create billing group":"Create billing group":TRUE:FALSE
+"BILLING GROUPS":"READ_BILLING_GROUPS":"View billing groups":"View billing groups":TRUE:FALSE
+"BILLING GROUPS":"UPDATE_BILLING_GROUP":"Modify billing group record":"Modify billing group information":TRUE:FALSE
+"BILLING GROUPS":"DELETE_BILLING_GROUP":"Delete billing group":"Delete billing group":TRUE:FALSE
+"MANUAL JOURNAL ENTRIES":"CREATE_MANUAL_JOURNAL_ENTRY":"Create manual journal entry":"Create manual journal entry":TRUE:FALSE
+"MANUAL JOURNAL ENTRIES":"READ_MANUAL_JOURNAL_ENTRIES":"View manual journal entries":"View manual journal entries":TRUE:FALSE
+"PETTY CASH ENTRIES":"CREATE_PETTY_CASH_JOURNAL_ENTRY":"Create petty cash entry":"Create petty cash entry":TRUE:FALSE
+"PETTY CASH ENTRIES":"READ_PETTY_CASH_JOURNAL_ENTRIES":"View petty cash entries":"View petty cash entries":TRUE:FALSE
+"BANKING ENTRIES":"CREATE_BANKING_JOURNAL_ENTRY":"Create banking entry":"Create banking entry":TRUE:FALSE
+"BANKING ENTRIES":"READ_BANKING_JOURNAL_ENTRIES":"View banking entries":"View banking entries":TRUE:FALSE
+"CUSTOMER PAYMENTS":"CREATE_CUSTOMER_PAYMENT":"Create customer payment":"Create customer payment":TRUE:FALSE
+"CUSTOMER PAYMENTS":"READ_CUSTOMER_PAYMENTS":"View customer payments":"View customer payments":TRUE:FALSE
+"CUSTOMER PAYMENTS":"UPDATE_CUSTOMER_PAYMENT":"Modify customer payment record":"Modify customer payment information":TRUE:FALSE
+"CUSTOMER PAYMENTS":"DELETE_CUSTOMER_PAYMENT":"Delete customer payment":"Delete customer payment":TRUE:FALSE
+"VENDOR PAYMENTS":"CREATE_VENDOR_PAYMENT":"Create vendor payment":"Create vendor payment":TRUE:FALSE
+"VENDOR PAYMENTS":"READ_VENDOR_PAYMENTS":"View vendor payments":"View vendor payments":TRUE:FALSE
+"VENDOR PAYMENTS":"UPDATE_VENDOR_PAYMENT":"Modify vendor payment record":"Modify vendor payment information":TRUE:FALSE
+"VENDOR PAYMENTS":"DELETE_VENDOR_PAYMENT":"Delete vendor payment":"Delete vendor payment":TRUE:FALSE
+"VENDOR BILLS":"CREATE_VENDOR_BILL":"Create vendor bill":"Create vendor bill":TRUE:FALSE
+"VENDOR BILLS":"READ_VENDOR_BILLS":"View vendor bill":"View vendor bills":TRUE:FALSE
+"VENDOR BILLS":"UPDATE_VENDOR_BILL":"Modify vendor bill record":"Modify vendor bill information":TRUE:FALSE
+"VENDOR BILLS":"DELETE_VENDOR_BILL":"Delete vendor bill":"Delete vendor bill":TRUE:FALSE
+"MANUAL JOURNAL ENTRIES":"IMPORT_MANUAL_JOURNALS":"Import manual journal entries":"Import manual journal entries":TRUE:FALSE
+"CREDIT NOTES":"READ_CREDIT_NOTES":"View customer credit notes":"View customer credit notes":TRUE:FALSE
+"CREDIT NOTES":"CREATE_CREDIT_NOTE":"create customer credit notes":"create customer credit notes":TRUE:FALSE
+"CREDIT NOTES":"UPDATE_CREDIT_NOTE":"Modify customer credit note record":"Modify customer credit notes information":TRUE:FALSE
+"CREDIT NOTES":"DELETE_CREDIT_NOTE":"Delete customer credit note record":"Modify customer credit notes information":TRUE:FALSE
+"DEBIT NOTES":"READ_DEBIT_NOTES":"View vendor debit notes":"View vendor debit notes":TRUE:FALSE
+"DEBIT NOTES":"CREATE_DEBIT_NOTE":"create vendor debit notes":"create vendor debit notes":TRUE:FALSE
+"DEBIT NOTES":"UPDATE_DEBIT_NOTE":"Modify vendor debit note record":"Modify vendor debit notes information":TRUE:FALSE
+"DEBIT NOTES":"DELETE_DEBIT_NOTE":"Delete vendor debit note record":"Delete vendor debit notes information":TRUE:FALSE
+"BANK RECONCILIATIONS":"CREATE_BANK_RECONCILIATION":"Create bank reconciliation":"Create bank reconciliation":TRUE:FALSE
+"BANK RECONCILIATIONS":"READ_BANK_RECONCILIATIONS":"View bank reconciliations":"View bank reconciliations":TRUE:FALSE
+"BANK RECONCILIATIONS":"UPDATE_BANK_RECONCILIATION":"Modify bank reconciliation record":"Modify bank reconciliation information":TRUE:FALSE
+"BANK RECONCILIATIONS":"DELETE_BANK_RECONCILIATION":"Delete bank reconciliation":"Delete bank reconciliation":TRUE:FALSE
+"BILLING RULES":"CREATE_BILLING_RULE":"Create billing rule":"Create billing rule":TRUE:FALSE
+"BILLING RULES":"READ_BILLING_RULES":"View billing rule":"View billing rules":TRUE:FALSE
+"BILLING RULES":"UPDATE_BILLING_RULE":"Modify billing rule record":"Modify billing rule information":TRUE:FALSE
+"BILLING RULES":"DELETE_BILLING_RULE":"Delete billing rule":"Delete billing rule":TRUE:FALSE
+"OBJECTS":"CREATE_OBJECT_TYPE":"Create type of object definition":"Create type of object definition":TRUE:FALSE
+"OBJECTS":"READ_OBJECT_TYPES":"View type of object definitions":"View type of object definitions":TRUE:FALSE
+"OBJECTS":"UPDATE_OBJECT_TYPE":"Modify type of object definition":"Modify type of object definition":TRUE:FALSE
+"OBJECTS":"DELETE_OBJECT_TYPE":"Delete type of object definition":"Delete type of object definition":TRUE:FALSE
+"OBJECTS":"CREATE_OBJECT":"Create object definition":"Create object definition":TRUE:FALSE
+"OBJECTS":"READ_OBJECTS":"View object definitions":"View object definitions":TRUE:FALSE
+"OBJECTS":"UPDATE_OBJECT":"Modify bject definition":"Modify object definition":TRUE:FALSE
+"OBJECTS":"DELETE_OBJECT":"Delete object definition":"Delete object definition":TRUE:FALSE
+"REORDER LEVELS":"CREATE_REORDER_LEVEL":"Create reorder level definition":"Create reorder level definition":TRUE:FALSE
+"REORDER LEVELS":"READ_REORDER_LEVELS":"View reorder level definitions":"View reorder level definitions":TRUE:FALSE
+"REORDER LEVELS":"UPDATE_REORDER_LEVEL":"Modify reorder level definition record":"Modify reorder level definition information":TRUE:FALSE
+"REORDER LEVELS":"DELETE_REORDER_LEVEL":"Delete reorder level definition":"Delete reorder level definition":TRUE:FALSE
+"CUSTOMER SALES RECEIPTS":"CREATE_CUSTOMER_SALES_RECEIPT":"Create customer sales receipt":"Create customer sales receipt":TRUE:FALSE
+"CUSTOMER SALES RECEIPTS":"READ_CUSTOMER_SALES_RECEIPTS":"View customer sales receipts":"View customer sales receipts":TRUE:FALSE
+"CUSTOMER SALES RECEIPTS":"UPDATE_CUSTOMER_SALES_RECEIPT":"Modify customer sales receipt record":"Modify customer sales receipt information":TRUE:FALSE
+"CUSTOMER SALES RECEIPTS":"DELETE_CUSTOMER_SALES_RECEIPT":"Delete customer sales receipt":"Delete customer sales receipt":TRUE:FALSE
+"CUSTOMER INVOICES":"CREATE_CUSTOMER_INVOICE":"Create customer invoice":"Create customer invoice":TRUE:FALSE
+"CUSTOMER INVOICES":"READ_CUSTOMER_INVOICES":"View customer invoices":"View customer invoices":TRUE:FALSE
+"CUSTOMER INVOICES":"UPDATE_CUSTOMER_INVOICE":"Modify customer invoice record":"Modify customer invoice information":TRUE:FALSE
+"CUSTOMER INVOICES":"DELETE_CUSTOMER_INVOICE":"Delete customer invoice":"Delete customer sales invoice":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"VIEW_FIXED_ASSETS":"View fixed assets":"View fixed assets":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"CREATE_FIXED_ASSETS":"Create fixed assets":"Create fixed assets":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"UPDATE_FIXED_ASSETS":"Update fixed assets":"Update fixed assets":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"DELETE_FIXED_ASSETS":"Delete fixed assets":"Delete fixed assets":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"VIEW_FIXED_ASSETS_MAINTENANCE":"View fixed assets maintenance":"View fixed assets maintenance":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"CREATE_FIXED_ASSETS_MAINTENANCE":"Create fixed assets maintenance":"Create fixed assets maintenance":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"UPDATE_FIXED_ASSETS_MAINTENANCE":"Update fixed assets maintenance":"Update fixed assets maintenance":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"DELETE_FIXED_ASSETS_MAINTENANCE":"Delete fixed assets maintenance":"Delete fixed assets maintenance":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"VIEW_FIXED_ASSETS_INSURANCE":"View fixed assets insurance":"View fixed assets insurance":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"CREATE_FIXED_ASSETS_INSURANCE":"Create fixed assets insurance":"Create fixed assets insurance":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"UPDATE_FIXED_ASSETS_INSURANCE":"Update fixed assets insurance":"Update fixed assets insurance":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"DELETE_FIXED_ASSETS_INSURANCE":"Delete fixed assets insurance":"Delete fixed assets insurance":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"VIEW_FIXED_ASSETS_WARRANTY":"View fixed assets warranty":"View fixed assets insurance":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"CREATE_FIXED_ASSETS_WARRANTY":"Create fixed assets warranty":"Create fixed assets warranty":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"UPDATE_FIXED_ASSETS_WARRANTY":"Update fixed assets warranty":"Update fixed assets warranty":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"DELETE_FIXED_ASSETS_WARRANTY":"Delete fixed assets warranty":"Delete fixed assets warranty":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"VIEW_FIXED_ASSETS_TRANSFER":"View fixed assets transfer":"View fixed assets transfer":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"CREATE_FIXED_ASSETS_TRANSFER":"Create fixed assets transfer":"Create fixed assets transfer":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"UPDATE_FIXED_ASSETS_TRANSFER":"Update fixed assets transfer":"Update fixed assets transfer":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"DELETE_FIXED_ASSETS_TRANSFER":"Delete fixed assets transfer":"Delete fixed assets transfer":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"VIEW_FIXED_ASSETS_DISPOSAL":"View fixed assets disposal":"View fixed assets disposal":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"CREATE_FIXED_ASSETS_DISPOSAL":"Create fixed assets disposal":"Create fixed assets disposal":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"UPDATE_FIXED_ASSETS_DISPOSAL":"Update fixed assets disposal":"Update fixed assets disposal":TRUE:FALSE
+"FIXED ASSETS MANAGEMENT":"DELETE_FIXED_ASSETS_DISPOSAL":"Delete fixed assets disposal":"Delete fixed assets disposal":TRUE:FALSE

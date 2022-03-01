@@ -1,0 +1,58 @@
+server:
+  max-http-header-size: 150000
+  connection-timeout: 100000
+
+security:
+  oauth2:
+    resource:
+      jwt:
+        keyValue: |
+          -----BEGIN PUBLIC KEY-----
+          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqp6QsfL7dq1Z8oa1L1da
+          46pqI9cCZzlCcGGwRFibln9qMlJZAaOq4lHpw36BU/qvPAc1ecDo6ZGOWMYkDHt4
+          05pzbO7kcrW+sFtx5MVg2ozE0K5iw9E5lEGKMWiepbXRgQBHVz5tk2rA7Mfjg2co
+          K4MW1j2xa/KjlcSCwIvEa/Ycfwucq533C+kRWQs6ebb6lAXCzuL5SQ88lP66wYCl
+          bbqmaQNphJgYfIv/XxV4PlBpkmrMITSnWd0FsQrZXEnqH8tSEzFNcDp7MOqacxP3
+          l7hO8Xo6KBRmrp3da3gC42UVPeupwvBGyd1m3YzEcAHF/VfB5yuAr8W0CgEfW0LV
+          +QIDAQAB
+          -----END PUBLIC KEY-----
+
+---
+
+spring:
+  profiles: local
+
+eureka:
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://${DISCOVERY_SERVICE}:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+---
+
+spring:
+  profiles: localdocker
+
+eureka:
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://${EUREKA_HOST:localhost}:${EUREKA_PORT:8761}/eureka/
+
+---
+
+spring:
+  profiles: local-kubernetes
+
+eureka:
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://${DISCOVERY_SERVICE}:8761/eureka/
+  instance:
+    prefer-ip-address: true
